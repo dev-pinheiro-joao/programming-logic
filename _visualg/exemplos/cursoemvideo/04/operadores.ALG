@@ -1,14 +1,18 @@
-algoritmo "primeiro"
+algoritmo "operadores"
 // +---------------------------------------------------+
 // Disciplina [Lógica de Programação / Algoritmo]
-// Função: Escrever "Olá, mundo!" na tela.
+// Função: Comparar expressões lógicas e relacionais.
 // Autor: João Paulo Pinheiro do Nascimento
 // Info: Exemplo disponibilizado pelo Canal CursoEmVideo
 // +---------------------------------------------------+
 var
-   msg: caractere
+   A, B, C: inteiro
 inicio
-   msg <- "Olá, Mundo!"
+
+   A <- 2
+   B <- 3
+   C <- 5
    escreval("+-------===== S A Í D A =====-------+")
-   escreva(msg, " Me livrei da maldição!")
+   escreva("O resultado dessa expressão é: ", nao((A=B) ou (C>A)))
+   
 fimalgoritmo
