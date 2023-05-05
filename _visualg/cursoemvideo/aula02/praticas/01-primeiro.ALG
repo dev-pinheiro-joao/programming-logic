@@ -10,8 +10,8 @@ var
    msg: Caractere
 inicio
    msg <- "Olá, Mundo!"
-   Escreval("---------------------")
-   Escreval("       PRIMEIRO      ")
-   Escreval("---------------------")
+   Escreval("=====================")
+   Escreval("     BOAS VINDAS     ")
+   Escreval("=====================")
    Escreval("Mensagem: ",msg)
 fimalgoritmo

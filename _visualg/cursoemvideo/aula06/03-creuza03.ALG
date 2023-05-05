@@ -1,24 +1,22 @@
-algoritmo "soma"
+algoritmo "creuza03"
 // ===============================================
 // Disciplina: [Lógica de Programação / Algoritmo]
-// Função: Escrever a soma entre dois números
+// Função: Creuza não sabe a temperatura
 // Autor: João Paulo Pinheiro do Nascimento
 //
 // Extra: Disponibilizado pelo Canal CursoEmVideo
 // ===============================================
 var
-   numero1, numero2, soma: Inteiro
+   F, C: Real
 inicio
    Escreval("===================================")
-   Escreval("         ALGORITMO SOMADOR         ")
+   Escreval("        ALGORITMO TEMPERATURA      ")
    Escreval("===================================")
-   Escreva("Informe um número(int): ")
-   Leia(numero1)
-   Escreva("Informe outro número(int): ")
-   Leia(numero2)
-   soma <- numero1 + numero2
+   Escreva("Qual é a temperatura aqui (F°)? ")
+   Leia(F)
+   C <- (F - 32) / 1.8
    Escreval
    Escreval("+---------------------------------+")
-   Escreval(" A SOMA ENTRE ", numero1, " E ", numero2, " É: ",  soma)
+   Escreval(" NO BRASIL ESTARIA: ", C:4:1, "°")
    Escreval("+---------------------------------+")
 fimalgoritmo

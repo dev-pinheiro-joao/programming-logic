@@ -9,14 +9,14 @@ algoritmo "conversor"
 var
    angulo, seno: Real
 inicio
-   Escreval("-----------------------------")
-   Escreval("     ALGORTIMO CONVERSOR     ")
-   Escreval("-----------------------------")
+   Escreval("==========================")
+   Escreval("      ALGORTIMO SENO      ")
+   Escreval("==========================")
    Escreva("Informe um ângulo(°): ")
    Leia(angulo)
    seno <- Sen(GraupRad(angulo))
    Escreval
-   Escreval("--------- RESULTADO ---------")
-   Escreval("O SENO DE ", angulo, " É IGUAL A ", seno:4:2)
-   Escreval("-----------------------------")
+   Escreval("+------------------------+")
+   Escreval(" O SENO DE ", angulo, " É: ", seno:4:2)
+   Escreval("+------------------------+")
 fimalgoritmo

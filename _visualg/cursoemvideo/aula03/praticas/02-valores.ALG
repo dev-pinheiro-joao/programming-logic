@@ -10,16 +10,16 @@ var
    numero1, numero2: Inteiro
    media: Real
 inicio
-   Escreval("---------------------------------------")
-   Escreval("           ALGORITMO VALORES           ")
-   Escreval("---------------------------------------")
+   Escreval("=====================================")
+   Escreval("           ALGORITMO MÉDIA           ")
+   Escreval("=====================================")
    Escreva("Informe um número(int): ")
    Leia(numero1)
    Escreva("Informe outro número(int): ")
    Leia(numero2)
    media <- (numero1 + numero2) / 2
    Escreval
-   Escreval("-------------- RESULTADO --------------")
-   Escreval("A MÉDIA ENTRE ", numero1, " E ", numero2, " É IGUAL A ",  media)
-   Escreval("---------------------------------------")
+   Escreval("+-----------------------------------+")
+   Escreval(" A MÉDIA ENTRE ", numero1, " E ", numero2, " É: ",  media)
+   Escreval("+-----------------------------------+")
 fimalgoritmo

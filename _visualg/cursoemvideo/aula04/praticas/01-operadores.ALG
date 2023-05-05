@@ -13,7 +13,7 @@ inicio
    b <- 3
    c <- 5
    Escreval
-   Escreval("------------- RESULTADO -------------")
-   Escreval("O RESULTADO DESTA EXPRESSÃO É: ", nao((a=b) ou (c>a)))
-   Escreval("-------------------------------------")
+   Escreval("+------------- OPERADORES ------------+")
+   Escreval(" O RESULTADO DESTA EXPRESSÃO É: ", nao((a=b) ou (c>a)))
+   Escreval("+-------------------------------------+")
 fimalgoritmo
