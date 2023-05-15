@@ -4,21 +4,21 @@ algoritmo "operacoes"
 var
    numero1, numero2: Inteiro
 inicio
-   escreva("Digite um valor: ")
-   leia(numero1)
+   Escreva("Digite um valor: ")
+   Leia(numero1)
 
-   escreva("Digite outro valor: ")
-   leia(numero2)
+   Escreva("Digite outro valor: ")
+   Leia(numero2)
 
    // Adição
-   escreval("Adição: ", (numero1 + numero2))
+   Escreval("Adição: ", (numero1 + numero2))
 
    // Subtração
-   escreval("Subtração: ", (numero1 - numero2))
+   Escreval("Subtração: ", (numero1 - numero2))
 
    // Multiplicação
-   escreval("Multiplicação: ", (numero1 * numero2))
+   Escreval("Multiplicação: ", (numero1 * numero2))
 
    // Divisão
-   escreval("Divisão: ", (numero1 / numero2))
+   Escreval("Divisão: ", (numero1 / numero2))
 fimalgoritmo
