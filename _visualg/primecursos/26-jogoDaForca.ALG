@@ -9,11 +9,10 @@ var
    i, p, completo: Inteiro
 inicio
    // Definir qual será a palavra a ser descoberta
-   // OBS: Não é possível colocar palavras com mais de uma letra igual
-   vPalavra[1] <- "LOGICA"
-   vPalavra[2] <- "QUARTO"
-   vPalavra[3] <- "HUMANO"
-   vPalavra[4] <- "DIRETO"
+   vPalavra[1] <- "BANANA"
+   vPalavra[2] <- "MENINO"
+   vPalavra[3] <- "MENINA"
+   vPalavra[4] <- "QUINTA"
    vPalavra[5] <- "NUMERO"
    vPalavra[6] <- "TRAMPO"
 
