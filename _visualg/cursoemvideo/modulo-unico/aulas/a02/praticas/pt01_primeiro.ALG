@@ -13,5 +13,6 @@ inicio
    // Imprimir na tela a mensagem de boas vindas "Olá, Mundo!".
    Escreval("|---- BOAS VINDAS ----|")
    Escreval(" MENSAGEM: ",msg)
+   Escreval("|---------------------|")
 
 fimalgoritmo

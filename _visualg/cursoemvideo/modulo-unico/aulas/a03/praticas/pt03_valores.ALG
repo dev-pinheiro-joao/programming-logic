@@ -9,7 +9,7 @@ var
    media: Real
 inicio
 
-   // Interface de interação que pede ao usuário informar dois números
+   // Interface de interação que pede ao usuário para informar dois números
    Escreval("===================================")
    Escreval("      ALGORITMO CÁLCULO MÉDIA      ")
    Escreval("===================================")
@@ -26,4 +26,5 @@ inicio
    Escreval("+---------------------------------+")
    Escreval(" A MÉDIA ENTRE", numero1, " E", numero2, " É: ",  media:4:2)
    Escreval("+---------------------------------+")
+   
 fimalgoritmo

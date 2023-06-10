@@ -7,7 +7,7 @@ var
    numero1, numero2, soma: Inteiro {Declaração de Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário informar dois números
+   // Interface de interação que pede ao usuário para informar dois números
    Escreval("==============================")
    Escreval("    ALGORITMO CÁLCULO SOMA    ")
    Escreval("==============================")
