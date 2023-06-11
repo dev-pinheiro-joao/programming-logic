@@ -1,14 +1,13 @@
-algoritmo "contador"
-// ===============================================
-// Disciplina: [Lógica de Programação / Algoritmo]
-// Função: Contar de 0 até onde o usuário quiser
-// Autor: João Paulo Pinheiro do Nascimento
-//
-// Extra: Disponibilizado pelo Canal CursoEmVideo
-// ===============================================
+algoritmo "contar0ateX"
+// Disciplina : [Lógica de Programação / Algoritmo]
+// Professor  : Gustavo Guanabara - Curso Em Video
+// Descrição  : Contar de 0 até onde o usuário quiser
+// Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   valor, salto, contador: Inteiro
+   valor, salto, contador: Inteiro {Declaração de Variáveis}
 inicio
+
+   // Pedir ao usuário para informar dois números inteiros.
    Escreval("==============================")
    Escreval("   ALGORITMO CONTADOR ATE X   ")
    Escreval("==============================")
@@ -17,6 +16,8 @@ inicio
    Leia(valor)
    Escreva("Qual será o valor do salto? ")
    Leia(salto)
+   
+   // Imprimir na tela a contagem de 0 até o 1° valor dado pelo usuário.
    Escreval
    Escreval("+----------------------------+")
    Enquanto (contador <= valor) faca
@@ -25,4 +26,5 @@ inicio
    FimEnquanto
    Escreval(" TERMINEI DE CONTAR")
    Escreval("+----------------------------+")
+   
 fimalgoritmo

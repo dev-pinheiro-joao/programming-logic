@@ -1,14 +1,13 @@
-algoritmo "partidaFutebol"
-// ===================================================
-// Disciplina: [Lógica de Programação / Algoritmo]
-// Função: Calcular a diferença de gols de uma partida
-// Autor: João Paulo Pinheiro do Nascimento
-//
-// Extra: Disponibilizado pelo Canal CursoEmVideo
-// ===================================================
+algoritmo "timesFutebol"
+// Disciplina : [Lógica de Programação / Algoritmo]
+// Professor  : Gustavo Guanabara - Curso Em Video
+// Descrição  : Calcular a média entre dois números
+// Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   bangu, madureira, diferenca: Inteiro
+   bangu, madureira, diferenca: Inteiro {Declaração de Variáveis}
 inicio
+
+   // Pedir ao usuário para informar quantos gols cada um dos times marcou.
    Escreval("-----------------------")
    Escreval("   BANGU X MADUREIRA   ")
    Escreval("-----------------------")
@@ -16,11 +15,15 @@ inicio
    Leia(bangu)
    Escreva("Quantos gols do MADUREIRA? ")
    Leia(madureira)
+   
+   // Determinar o modo como será feito o cálculo da diferença dos gols.
    Se (bangu > madureira) entao
       diferenca <- bangu - madureira
    senao
       diferenca <- madureira - bangu
    FimSe
+   
+   // Imprimir na tela a diferença de gols e o status da partida.
    Escreval
    Escreval("------- PARTIDA -------")
    Escreval(" DIFERENÇA: ", diferenca)
@@ -36,4 +39,5 @@ inicio
       FimSe
    FimSe
    Escreval("-----------------------")
+   
 fimalgoritmo

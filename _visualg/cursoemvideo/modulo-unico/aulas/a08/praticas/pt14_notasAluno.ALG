@@ -1,4 +1,4 @@
-algoritmo "aluno"
+algoritmo "notasAluno"
 // Disciplina : [Lógica de Programação / Algoritmo]
 // Professor  : Gustavo Guanabara - Curso Em Video
 // Descrição  : Verificar a situação de notas do aluno
@@ -7,7 +7,7 @@ var
    nota1, nota2, media: Real {Declaração de Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário para informar duas notas
+   // Pedir ao usuário para informar as duas notas do aluno.
    Escreval("============================")
    Escreval("  ALGORITMO SITUAÇÃO ALUNO  ")
    Escreval("============================")
@@ -16,12 +16,12 @@ inicio
    Escreva("Segunda Nota: ")
    Leia(nota2)
    
-   // Cálculo da media das notas do aluno
+   // Calcular a média das notas do aluno.
    media <- (nota1 + nota2) / 2
    
-   // Interface que imprime a situação curricular de um aluno (Aprovado, Reprovado ou Em recuperação)
+   // Imprimir na tela a média do aluno e a sua situação curricular.
    Escreval
-   Escreval("+-------- SITUAÇÃO --------+")
+   Escreval("+--------------------------+")
    Escreval(" A MÉDIA DO ALUNO É: ", media:4:2)
    Se (media >= 7) entao
       Escreval(" SITUAÇÃO: APROVADO")
@@ -33,4 +33,5 @@ inicio
       FimSe
    FimSe
    Escreval("+--------------------------+")
+   
 fimalgoritmo

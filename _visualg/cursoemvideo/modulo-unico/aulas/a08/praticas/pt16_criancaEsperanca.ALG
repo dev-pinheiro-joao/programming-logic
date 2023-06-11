@@ -7,7 +7,7 @@ var
    doacao, valor : Inteiro {Declaração de Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário para informar uma opção de doação
+   // Pedir ao usuário para informar uma opção de doação.
    Escreval("-------------------------")
    Escreval("    CRIANÇA ESPERANÇA    ")
    Escreval("-------------------------")
@@ -19,7 +19,7 @@ inicio
    Escreval(" [5] para cancelar ")
    Leia(doacao)
    
-   // Função que irá definir qual opção foi escolhida
+   // Determinar qual valor de doação foi escolhido pelo usuário.
    Escolha doacao
    Caso 1
       valor <- 10
@@ -34,7 +34,7 @@ inicio
       valor <- 0
    FimEscolha
    
-   // Interface que imprime o valor da doação
+   // Imprimir na tela o valor da doação.
    Escreval("-------------------------")
    Escreval(" SUA DOAÇÃO FOI DE R$", valor)
    Escreval(" MUITO OBRIGADO!")

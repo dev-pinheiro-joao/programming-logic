@@ -1,4 +1,4 @@
-algoritmo "parOuImpar"
+algoritmo "parImpar"
 // Disciplina : [Lógica de Programação / Algoritmo]
 // Professor  : Gustavo Guanabara - Curso Em Video
 // Descrição  : Calcular se um número é PAR ou ÍMPAR
@@ -7,14 +7,14 @@ var
    numero: Inteiro {Declaração de Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário informar um número
+   // Pedir ao usuário para informar um número inteiro qualquer.
    Escreval("===================================")
-   Escreval("    ALGORIMTO CÁLCULO PAR ÍMPAR       ")
+   Escreval("    ALGORIMTO CÁLCULO PAR ÍMPAR    ")
    Escreval("===================================")
-   Escreva("Digite um número qualquer(int): ")
+   Escreva("Informe um número qualquer(INT): ")
    Leia(numero)
    
-   // Interface que imprimi se um número é ÍMPAR ou PAR
+   // Imprimir na tela se um número é ÍMPAR ou PAR.
    Escreval
    Escreval("+---------------------------------+")
    Se (numero % 2 = 0) entao

@@ -7,19 +7,19 @@ var
    massa, altura, imc: Real {Declaração de Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário informar sua massa e sua altura
+   // Pedir ao usuário para informar a sua massa corporal e a sua altura.
    Escreval("=================================")
    Escreval(" ALGORITMO ÍNDICE MASSA CORPORAL ")
    Escreval("=================================")
-   Escreva("Digite sua massa (Kg): ")
+   Escreva("Informe sua massa (KG): ")
    Leia(massa)
-   Escreva("Digite sua altura (M): ")
+   Escreva("Informe sua altura (M): ")
    Leia(altura)
    
-   // Cálculo do IMC (Massa dividida pela altura ao quadrado)
+   // Calcular o Índice de Massa Corporal (IMC).
    imc <- massa / (altura ^ 2)
    
-   // Interface que imprime o IMC do usuário e informa se o mesmo está ou não no peso ideal
+   // Imprimir o IMC do usuário e se o mesmo está ou não no peso ideal.
    Escreval
    Escreval("+-------------------------------+")
    Escreval(" SEU IMC É: ", imc:5:2)

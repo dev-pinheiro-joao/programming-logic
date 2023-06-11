@@ -7,7 +7,7 @@ var
    numero1, numero2, soma: Inteiro {Declaração de Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário para informar dois números
+   // Pedir ao usuário para informar dois números inteiros.
    Escreval("==============================")
    Escreval("    ALGORITMO CÁLCULO SOMA    ")
    Escreval("==============================")
@@ -16,10 +16,10 @@ inicio
    Escreva("Informe outro número(INT): ")
    Leia(numero2)
    
-   // Cálculo da soma entre os dois números
+   // Calcular a soma entre os dois números inteiros.
    soma <- numero1 + numero2
    
-   // Interface que imprime a soma entre os valores dados pelo usuário
+   // Imprimir na tela a soma entre os valores dados pelo usuário.
    Escreval
    Escreval("+------------------------------+")
    Escreval(" A SOMA ENTRE", numero1, " E", numero2, " É:",  soma)

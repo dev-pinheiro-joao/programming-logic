@@ -7,7 +7,7 @@ var
    ano, nasc, idade: Inteiro {Declaração de Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário informar o ano atual e o de nascimento
+   // Pedir ao usuário para informar o ano atual e o ano de nascimento.
    Escreval("====================================")
    Escreval("    ALGORITMO CÁLCULO MAIORIDADE    ")
    Escreval("====================================")
@@ -16,10 +16,10 @@ inicio
    Escreva("Informe que ano você nasceu: ")
    Leia(nasc)
 
-   // Cálculo da idade do usuário
+   // Calcular a idade do usuário.
    idade <- ano - nasc
 
-   // Interface que imprime a idade do usuário e se ele já atingiu a maioridade
+   // Imprimir na tela a idade do usuário e se ele já atingiu a maioridade.
    Escreval
    Escreval("+---------------------------------+")
    Escreval(" EM", ano, " VOCÊ TERÁ: ", idade, " ANOS")

@@ -9,7 +9,7 @@ var
    equilatero, escaleno, triangulo: Logico
 inicio
 
-   // Interface de interação que pede ao usuário para informar três lados de um triângulo
+   // Pedir ao usuário para informar três lados de um triângulo qualquer.
    Escreval("==========================================")
    Escreval("      ALGORITMO DETERMINA TRIÂNGULOS      ")
    Escreval("==========================================")
@@ -20,12 +20,12 @@ inicio
    Escreva("Informe o 3° lado do triângulo(CM): ")
    Leia(lado3)
    
-   // Atribuir nas variáveis se é possível formar um triângulo e qual o seu tipo
+   // Atribuir nas variáveis o resultador das comparações lógicas.
    triangulo <- (lado1 < lado2 + lado3) e (lado2 < lado1 + lado3) e (lado3 < lado1 + lado2)
    equilatero <- (lado1 = lado2) e (lado2 = lado3)
    escaleno <- (lado1 <> lado2) e (lado2 <> lado3) e (lado1 <> lado3)
    
-   // Interface que imprime se é possível formar um triângulo e, se sim, qual o seu tipo
+   // Imprimir na tela se é possível formar um triângulo e, se sim, qual o seu tipo.
    Escreval
    Escreval("+----------------------------------------+")
    Escreval(" É POSSÍVEL FORMAR TRIÂNGULO: ", triangulo)

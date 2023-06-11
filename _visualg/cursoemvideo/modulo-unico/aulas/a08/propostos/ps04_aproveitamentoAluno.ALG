@@ -1,14 +1,13 @@
-algoritmo "situcaoAluno"
-// ===================================================
-// Disciplina: [Lógica de Programação / Algoritmo]
-// Função: Calcular o aproveitamento de um aluno (USA)
-// Autor: João Paulo Pinheiro do Nascimento
-//
-// Extra: Disponibilizado pelo Canal CursoEmVideo
-// ===================================================
+algoritmo "aproveitamentoAluno"
+// Disciplina : [Lógica de Programação / Algoritmo]
+// Professor  : Gustavo Guanabara - Curso Em Video
+// Descrição  : Verificar o aproveitamento de um aluno (Modelo USA)
+// Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   nota1, nota2, media: Real
+   nota1, nota2, media: Real {Declaração de Variáveis}
 inicio
+
+   // Pedir ao usuário para informar as duas notas do aluno.
    Escreval("-----------------------")
    Escreval(" ESCOLA JAVALI CANSADO ")
    Escreval("-----------------------")
@@ -16,7 +15,11 @@ inicio
    Leia(nota1)
    Escreva("Segunda Nota: ")
    Leia(nota2)
+   
+   // Calcular a médias das notas do aluno.
    media <- (nota1 + nota2) / 2
+   
+   // Imprimir na tela a média e o aproveitamento curricular do aluno.
    Escreval
    Escreval("------- SITUAÇÃO ------")
    Se (media >= 9) e (media <= 10) entao
@@ -49,4 +52,5 @@ inicio
       FimSe
    FimSe
    Escreval("------------------------")
+   
 fimalgoritmo
