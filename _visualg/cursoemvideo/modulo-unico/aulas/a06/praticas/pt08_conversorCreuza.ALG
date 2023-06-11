@@ -14,10 +14,10 @@ inicio
    Escreva("Informe quantos reais eu tenho: R$")
    Leia(reais)
 
-   // Converter Reais em Dólares.
+   // Converter Reais em Dólares e atribuir na variavel DOLARES.
    dolares <- reais / 4.98
 
-   // Imprimir na tela a quantidade de dólares que Creuza pode comprar.
+   // Imprimir na tela a quantidade de dólares que Creuza pode comprar armazenados na variável DOLARES.
    Escreval
    Escreval("+-------------------------------------+")
    EscrevaL(" SIGNIFICA QUE POSSO TER: US$", dolares:4:2)

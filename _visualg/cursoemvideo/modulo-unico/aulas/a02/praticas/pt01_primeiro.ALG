@@ -10,7 +10,7 @@ inicio
    // Atribuir a mensagem "Olá, Mundo!" na variável msg.
    msg <- "Olá, Mundo!"
 
-   // Imprimir na tela a mensagem de boas vindas "Olá, Mundo!".
+   // Imprimir na tela a mensagem de boas vindas armazenada na variável MSG.
    Escreval("|---- BOAS VINDAS ----|")
    Escreval(" MENSAGEM: ",msg)
    Escreval("|---------------------|")

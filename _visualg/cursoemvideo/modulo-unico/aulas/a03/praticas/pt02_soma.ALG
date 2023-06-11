@@ -16,10 +16,10 @@ inicio
    Escreva("Informe outro número(INT): ")
    Leia(numero2)
    
-   // Calcular a soma entre os dois números inteiros.
+   // Calcular a soma entre os valores armazenados nas variáveis NUMERO1 e NUMERO2.
    soma <- numero1 + numero2
    
-   // Imprimir na tela a soma entre os valores dados pelo usuário.
+   // Imprimir na tela a soma dos valores armazenada na variável SOMA.
    Escreval
    Escreval("+------------------------------+")
    Escreval(" A SOMA ENTRE", numero1, " E", numero2, " É:",  soma)

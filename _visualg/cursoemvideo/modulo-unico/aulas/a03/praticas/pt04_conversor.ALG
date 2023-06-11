@@ -14,11 +14,10 @@ inicio
    Escreva("Informe um ângulo(°): ")
    Leia(angulo)
 
-
-   // Converter o ângulo de Graus(°) para Radianos e atribuir o seno na variável.
+   // Converter o ângulo de Graus(°) para Radianos e atribuir o valor na variável SENO.
    seno <- Sen(GraupRad(angulo))
 
-   // Imprimir na tela o seno do ângulo solicitado para o usuário.
+   // Imprimir na tela o seno do ângulo armazenado na variável SENO.
    Escreval
    Escreval("+------------------------+")
    Escreval(" O SENO DE ", angulo:1, "° É: ", seno:4:2)

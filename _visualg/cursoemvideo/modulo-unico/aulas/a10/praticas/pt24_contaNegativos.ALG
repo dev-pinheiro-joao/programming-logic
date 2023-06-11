@@ -1,29 +1,31 @@
 algoritmo "contaNegativos"
-// ===============================================
-// Disciplina: [Lógica de Programação / Algoritmo]
-// Função: Contar quantos números são negativos
-// Autor: João Paulo Pinheiro do Nascimento
-//
-// Extra: Disponibilizado pelo Canal CursoEmVideo
-// ===============================================
+// Disciplina : [Lógica de Programação / Algoritmo]
+// Professor  : Gustavo Guanabara - Curso Em Video
+// Descrição  : Contar quantos números são negativos
+// Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   numero, contador, totalNegativos: Inteiro
+   numero, contador, totalNegativos: Inteiro {Declaração de Variáveis}
 inicio
+
+   // Pedir ao usuário para informar um número inteiro.
    contador <- 1
    totalNegativos <- 0
    Escreval("========================================")
    Escreval("   ALGORITMO CONTAR NÚMEROS NEGATIVOS   ")
    Escreval("========================================")
    Repita
-      Escreva("Digite um número(int): ")
+      Escreva("Informe um número(INT): ")
       Leia(numero)
       Se (numero < 0) entao
          totalNegativos <- totalNegativos + 1
       FimSe
       contador <- contador + 1
    Ate (contador > 5)
+   
+   // Imprimir na tela o total de valores negativos informados.
    Escreval
    Escreval("+--------------------------------------+")
    Escreval(" FORAM DIGITADOS: ", totalNegativos, " VALORES NEGATIVOS")
    Escreval("+--------------------------------------+")
+   
 fimalgoritmo

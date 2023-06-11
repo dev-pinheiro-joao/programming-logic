@@ -1,15 +1,15 @@
 algoritmo "superContador"
-// ===============================================
-// Disciplina: [Lógica de Programação / Algoritmo]
-// Função: Criar um contador através de menus
-// Autor: João Paulo Pinheiro do Nascimento
-//
-// Extra: Disponibilizado pelo Canal CursoEmVideo
-// ===============================================
+// Disciplina : [Lógica de Programação / Algoritmo]
+// Professor  : Gustavo Guanabara - Curso Em Video
+// Descrição  : Criar um contador através de menus
+// Autor(a)   : João Paulo Pinheiro Nascimento
 var
+   {Declaração de Variáveis}
    contador: Inteiro
    resposta: Caractere
 inicio
+
+   // Pedir ao usuário para informar um número para escolher uma opção de contagem.
    Repita
       Escreval("=================")
       Escreval("|    M E N U    |")
@@ -19,6 +19,8 @@ inicio
       Escreval("| [3] Sair      |")
       Escreval("=================")
       Leia(resposta)
+
+      // Determinar qual o tipo de contagem foi escolhida pelo usuário e imprimir na tela.
       Escolha resposta
       Caso 1
          contador <- 1
@@ -43,4 +45,5 @@ inicio
          Escreval
       FimEscolha
    Ate (resposta = 3)
+
 fimalgoritmo

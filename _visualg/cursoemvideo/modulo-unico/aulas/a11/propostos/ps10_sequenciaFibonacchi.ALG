@@ -1,14 +1,13 @@
 algoritmo "sequenciaFibonacchi"
-// =================================================================
-// Disciplina: [Lógica de Programação / Algoritmo]
-// Função: Mostrar os 15 primeiros termos da sequência de fibonacchi
-// Autor: João Paulo Pinheiro do Nascimento
-//
-// Extra: Disponibilizado pelo Canal CursoEmVideo
-// =================================================================
+// Disciplina : [Lógica de Programação / Algoritmo]
+// Professor  : Gustavo Guanabara - Curso Em Video
+// Descrição  : Mostrar os 15 primeiros termos da Sequência de Fibonacchi
+// Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   contador, termo1, termo2, termo3: Inteiro
+   contador, termo1, termo2, termo3: Inteiro {Declaração de Variáveis}
 inicio
+
+   // Imprimir na tela a Sequência de Fibonacchi com os 15 primeiros termos.
    Escreval("|-------- SEQUÊNCIA DE FIBONACCHI --------|")
    termo1 <- 0
    Escreva (termo1)
@@ -22,4 +21,5 @@ inicio
    FimPara
    Escreval
    Escreval("|-----------------------------------------|")
+   
 fimalgoritmo
