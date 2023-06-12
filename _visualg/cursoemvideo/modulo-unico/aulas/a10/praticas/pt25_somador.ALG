@@ -22,7 +22,7 @@ inicio
       Leia(resposta)
    Ate (Maiusc(resposta) = "N")
 
-   // Imprimir na tela a soma de todos os valores.
+   // Imprimir na tela a soma dos valores armazenado na variável SOMA.
    Escreval
    Escreval("+-------------------------------------+")
    Escreval(" A SOMA DE TODOS OS VALORES FOI: ", soma)

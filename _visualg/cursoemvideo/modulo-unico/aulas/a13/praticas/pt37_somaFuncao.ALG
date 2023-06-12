@@ -6,12 +6,11 @@ algoritmo "somaFuncao"
 var
    valor1, valor2, retorno: Inteiro {Declaração de Variáveis}
 
-   // Declaração de Função
 Funcao Soma(X, Y: Inteiro) : Inteiro
 // Função: Retornar a soma de dois valores
 inicio
 
-   // Retornar a soma de X e Y
+   // Retornar a soma de X (valor1) e Y (valor2).
    Retorne X + Y
 
 FimFuncao
@@ -27,10 +26,10 @@ inicio
    Escreva("Informe o segundo valor(INT): ")
    Leia(valor2)
 
-   // Chamar a Função Soma(), passar as variáveis valor1 e valor2 como parâmetros e atribuir na variável retorno.
+   // Chamar a Função Soma(), passar as variáveis VALOR1 e VALOR2 como parâmetros e atribuir na variável RETORNO.
    retorno <- Soma(valor1, valor2)
 
-   // Imprimir na tela a soma entre os valores.
+   // Imprimir na tela a soma entre os valores, armazenada na variável RETORNO.
    Escreval
    Escreval("+-----------------------------+")
    Escreval(" A SOMA ENTRE ", valor1, " E ", valor2, " É: ", retorno)

@@ -22,7 +22,7 @@ inicio
       contador <- contador + 1
    Ate (contador > 5)
    
-   // Imprimir na tela o total de valores negativos informados.
+   // Imprimir na tela o total de valores negativos armazenado na variável TOTALNEGATIVOS.
    Escreval
    Escreval("+--------------------------------------+")
    Escreval(" FORAM DIGITADOS: ", totalNegativos, " VALORES NEGATIVOS")

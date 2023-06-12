@@ -1,20 +1,22 @@
 algoritmo "lugaresCinema"
-// ===============================================
-// Disciplina: [Lógica de Programação / Algoritmo]
-// Função: Reservar lugares em uma sala de cinema
-// Autor: João Paulo Pinheiro do Nascimento
-//
-// Extra: Disponibilizado pelo Canal CursoEmVideo
-// ===============================================
+// Disciplina : [Lógica de Programação / Algoritmo]
+// Professor  : Gustavo Guanabara - Curso Em Video
+// Descrição  : Reservar lugares em uma sala de cinema
+// Autor(a)   : João Paulo Pinheiro Nascimento
 var
+   {Declaração de Variáveis}
    B: vetor[1..19] de Caractere
    lugar, cadeira: Inteiro
    resposta: Caractere
 
 Procedimento MostraFileira()
-var i: Inteiro
+// Função: Imprimir na tela a fileira de cadeiras disponível para reserva
+var
+   i: Inteiro {Declaração de Variáveis (Procedimento)}
 inicio
-   Para i <- 1 ate 10 faca
+
+   // Imprimir na tela quais lugares estão ocupados e quais estão livres.
+   Para i de 1 ate 10 faca
       Se (B[i] = "") entao
          Escreva ("[ B", i:2, " ]")
       senao
@@ -23,14 +25,20 @@ inicio
    FimPara
    Escreval()
    Escreval("----------------------------------------------------------------------")
+
 FimProcedimento
 
 inicio
+
+   // Pedir ao usuário para informar qual lugar ele quer armazenar.
    Repita
       LimpaTela
+      // Chamar o Procedimento MostraFileira()
       MostraFileira()
       Escreva("Reservar a cadeira: B")
       Leia(cadeira)
+      
+      // Imprimir na tela se a reserva foi um SUCESSO ou se foi uma FALHA.
       Se (B[cadeira] = "") entao
          B[cadeira] <- "X"
          Escreval("Cadeira B", cadeira, " RESERVADA!")
@@ -39,5 +47,6 @@ inicio
       FimSe
       Escreva("Quer reservar outro [S/N]? ")
       Leia(resposta)
-   Ate (maiusc(resposta) = "N")
+   Ate (Maiusc(resposta) = "N")
+   
 fimalgoritmo

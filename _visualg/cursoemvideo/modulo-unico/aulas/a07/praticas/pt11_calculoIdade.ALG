@@ -16,10 +16,10 @@ inicio
    Escreva("Informe que ano você nasceu: ")
    Leia(nasc)
 
-   // Calcular a idade do usuário.
+   // Calcular a idade do usuário com os valores das variáveis ANO e NASC.
    idade <- ano - nasc
 
-   // Imprimir na tela a idade do usuário e se ele já atingiu a maioridade.
+   // Imprimir na tela a idade do usuário, armazenada na variável IDADE, e se ele já atingiu a maioridade.
    Escreval
    Escreval("+---------------------------------+")
    Escreval(" EM", ano, " VOCÊ TERÁ: ", idade, " ANOS")

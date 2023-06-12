@@ -16,10 +16,10 @@ inicio
    Escreva("Segunda Nota: ")
    Leia(nota2)
 
-   // Calcular a média do aluno.
+   // Calcular a média do aluno e atribuir na variável MEDIA.
    media <- (nota1 + nota2) / 2
 
-   // Imprimir na tela a média do aluno e sua situação curricular.
+   // Imprimir na tela a média do aluno, armazenada na variável MEDIA, e sua situação curricular.
    Escreval
    Escreval("------- SITUACAO ------")
    Escreval(" MÉDIA: ", media:3:1)

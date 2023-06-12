@@ -6,9 +6,8 @@ algoritmo "somaProcedimento"
 var
    X, Y: Inteiro {Declaração de Variáveis}
 
-   // Declaração de Procedimento
 Procedimento Soma(A, B: Inteiro)
-// Função: Somar dois valores.
+// Função: Somar dois valores
 inicio
 
    // Imprimir na tela a soma do valores.
@@ -28,4 +27,5 @@ inicio
 
    // Chamar o Procedimento Soma() passando as variáveis X e Y como parâmetros.
    Soma(X, Y)
+   
 fimalgoritmo

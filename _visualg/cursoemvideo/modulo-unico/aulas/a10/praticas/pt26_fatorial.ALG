@@ -24,7 +24,7 @@ inicio
          contador <- contador - 1
       Ate (contador < 1)
 
-      // Imprimir na tela o fatorial do valor digitado pelo usuário.
+      // Imprimir na tela o fatorial do valor digitado pelo usuário armazenado na variável FATORIAL.
       Escreval
       Escreval("+---------------------------------------+")
       Escreval(" O VALOR DO FATORIAL DE ", numero, " É: ", fatorial)

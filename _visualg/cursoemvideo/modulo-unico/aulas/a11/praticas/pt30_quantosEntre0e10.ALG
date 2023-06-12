@@ -13,10 +13,10 @@ inicio
    Escreval("==========================================")
    totalEntre10 <- 0
    soma <- 0
-   Para contador <- 1 ate 6 passo 1 faca
+   Para contador de 1 ate 6 passo 1 faca
       Escreva("Informe um valor(INT): ")
       Leia(valor)
-      Se (valor >= 0) e (valor <= 10) entao
+      Se ((valor >= 0) E (valor <= 10)) entao
          totalEntre10 <- totalEntre10 + 1
          Se (valor % 2 = 1) entao
             soma <- soma + valor
@@ -24,7 +24,7 @@ inicio
       FimSe
    FimPara
    
-   // Imprimir na tela quantos valores estão entre 0 e 10 e qual a soma entre os valores ímpares.
+   // Imprimir na tela quantos valores estão entre 0 e 10 e qual a soma entre os valores ímpares armazenados nas variáveis TOTALENTRE10 e SOMA.
    Escreval
    Escreval("+----------------------------------------+")
    Escreval(" EXISTE(M):", totalEntre10, " VALOR(ES) ENTRE 0 E 10")

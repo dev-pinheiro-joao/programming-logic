@@ -13,7 +13,7 @@ var
    idade, cor, totalHomens, totalMulheres: Inteiro
 inicio
 
-   // Pedir ao usuário para informar as informações abaixo.
+   // Pedir ao usuário para informar o sexo, a idade e a cor de cabelo de uma pessoa.
    Repita
       LimpaTela
       Escreval("==========================")
@@ -31,18 +31,18 @@ inicio
       Escreval("[4] Ruivo")
       Leia(cor)
       
-      // Calcular a quantidade total de homens e mulheres que atendem os critérios.
-      Se ((maiusc(sexo) = "M") e (idade > 18) e (cor = 2)) entao
+      // Calcular a quantidade total de homens e mulheres que atendem os critérios e atribuir nas variáveis TOTALHOMENS e TOTALMULHERES.
+      Se ((Maiusc(sexo) = "M") E (idade > 18) E (cor = 2)) entao
          totalHomens <- totalHomens + 1
       FimSe
-      Se ((maiusc(sexo) = "F") e (cor = 3) e (idade >= 25) e (idade <= 30)) entao
+      Se ((Maiusc(sexo) = "F") E (cor = 3) E (idade >= 25) E (idade <= 30)) entao
          totalMulheres <- totalMulheres + 1
       FimSe
       Escreva("Quer Continuar? [S/N] ")
       Leia(resposta)
    Ate (Maiusc(resposta) = "N")
    
-   // Imprimir na tela a
+   // Imprimir na tela o total de homens e mulheres que satisfazem uma condição armazenados nas variáveis TOTALHOMENS e TOTALMULHERES.
    LimpaTela
    Escreval("------- RESULTADO FINAL -------")
    Escreval("Total de homens com mais de 18 e cabelos castanhos:", totalHomens)

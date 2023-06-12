@@ -33,7 +33,7 @@ inicio
       contador <- contador + 1
    FimEnquanto
    
-   // Imprimir na tela o aluno com o melhor aproveitamento.
+   // Imprimir na tela o aluno com o melhor aproveitamento armazenado na variável MELHORALUNO.
    Escreval("----------------")
    Escreval("O melhor aproveitamento foi de ", melhorAluno, " com a nota ", maiorNota:3:2)
    

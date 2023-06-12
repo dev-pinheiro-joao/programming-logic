@@ -16,14 +16,14 @@ inicio
    Escreva("Quantos gols do MADUREIRA? ")
    Leia(madureira)
    
-   // Determinar o modo como será feito o cálculo da diferença dos gols.
+   // Definiri o modo como será feito o cálculo da diferença dos gols e atribuir na variável DIFERENCA.
    Se (bangu > madureira) entao
       diferenca <- bangu - madureira
    senao
       diferenca <- madureira - bangu
    FimSe
    
-   // Imprimir na tela a diferença de gols e o status da partida.
+   // Imprimir na tela a diferença de gols, armazenada na variável DIFERENCA, e o status da partida.
    Escreval
    Escreval("------- PARTIDA -------")
    Escreval(" DIFERENÇA: ", diferenca)

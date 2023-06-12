@@ -6,9 +6,8 @@ algoritmo "parImparProcedimento"
 var
    numero: Inteiro {Declaração de Variáveis}
 
-   // Declaração de Procedimento
 Procedimento ParOuImpar(V: Inteiro)
-// Função: Verificar se um número é ÍMPAR ou PAR.
+// Função: Verificar se um número é ÍMPAR ou PAR
 inicio
 
    // Imprimir na tela se o número é ÍMPAR ou PAR.
@@ -32,7 +31,7 @@ inicio
    Escreva("Informe um número(INT): ")
    Leia(numero)
    
-   // Chamar o Procedimento ParOuImpar() e passar a variável numero como parâmetro.
+   // Chamar o Procedimento ParOuImpar() e passar a variável NUMERO como parâmetro.
    ParOuImpar(numero)
    
 fimalgoritmo

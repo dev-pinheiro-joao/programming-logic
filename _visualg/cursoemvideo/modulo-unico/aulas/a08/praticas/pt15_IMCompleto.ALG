@@ -16,10 +16,10 @@ inicio
    Escreva("Informe sua altura (M): ")
    Leia(altura)
    
-   // Calcular o IMC do usuário.
+   // Calcular o IMC do usuário e atribuir na variável IMC.
    imc <- massa / (altura ^ 2)
    
-   // Imprimir na tela o IMC geral do usuário e sua classificação.
+   // Imprimir na tela o IMC do usuário, armazenado na variável IMC, e sua classificação.
    Escreval
    Escreval("+--------------------------+")
    Escreval(" SEU IMC É: ", imc:5:2)

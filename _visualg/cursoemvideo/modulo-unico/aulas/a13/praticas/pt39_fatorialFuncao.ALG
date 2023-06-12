@@ -6,14 +6,13 @@ algoritmo "fatorialFuncao"
 var
    numero, retorno: Inteiro {Declaração de Variáveis}
 
-   // Declaração de Função
 Funcao Fatorial (V: Inteiro): Inteiro
 // Função: Retornar o fatorial de um número
 var
    C, R: Inteiro {Declaração de Variáveis (Função)}
 inicio
 
-   // Calcular o fatorial de um número.
+   // Calcular o fatorial de um número e atribuir na variável R.
    R <- 1
    Para C <- 1 ate V faca
       R <- R * C
@@ -31,10 +30,10 @@ inicio
    Escreva("Informe um número(INT): ")
    Leia(numero)
    
-   // Chamar a Função Fatorial(), passar a variável numero como parâmetro e atribuir na variável retorno.
+   // Chamar a Função Fatorial(), passar a variável NUMERO como parâmetro e atribuir na variável RETORNO.
    retorno <- Fatorial(numero)
    
-   // Imprimir na tela o fatorial do número informado pelo usuário.
+   // Imprimir na tela o fatorial do número informado pelo usuário, armazenado na variável RETORNO.
    Escreval
    Escreval("+---------------------------+")
    Escreval(" O VALOR DE ", numero, "! É: ", retorno)

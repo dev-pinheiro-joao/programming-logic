@@ -10,7 +10,7 @@ var
    dependentes: Inteiro
 inicio
 
-   // Pedir ao usuário para informar o nome, salário e os dependentes de um usuário.
+   // Pedir ao usuário para informar o nome, salário e os dependentes de um funcionário.
    Escreval("==============================================")
    Escreval("      ALGORITMO NOVO SALÁRIO FUNCIONARIO      ")
    Escreval("==============================================")
@@ -21,7 +21,7 @@ inicio
    Escreva("Informe a quantidade de dependentes: ")
    Leia(dependentes)
    
-   // Determinar qual o cálculo de novo salário será utilizado.
+   // Definiri qual o cálculo de novo salário será utilizado e atribuído na variável NOVO_SALARIO.
    Escolha dependentes
    Caso 0
       novo_salario <- salario + (salario * 5 / 100)
@@ -33,7 +33,7 @@ inicio
       novo_salario <- salario + (salario * 18 / 100)
    FimEscolha
    
-   // Imprimir na tela o novo salário do funcionário em relação aos seus dependentes.
+   // Imprimir na tela o novo salário do funcionário armazenado na variável NOVO_SALARIO.
    Escreval
    Escreval("+--------------------------------------------+")
    Escreval(" O NOVO SALÁRIO DE ", Maiusc(nome), " SERÁ: R$", novo_salario:5:2)

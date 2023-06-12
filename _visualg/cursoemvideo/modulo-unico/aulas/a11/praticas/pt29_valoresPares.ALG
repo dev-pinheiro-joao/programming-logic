@@ -14,12 +14,12 @@ inicio
    Escreva("Informe um valor(INT): ")
    Leia(valor)
    
-   // Calcular se o valor é ÍMPAR e, se sim, diminuir um para torná-lo PAR.
+   // Calcular se o valor é ÍMPAR e, se sim, diminuir um para torná-lo PAR e atribuir na variável VALOR.
    Se (valor % 2 = 1) entao
       valor <- valor - 1
    FimSe
    
-   // Imprimir na tela a contagem regressiva com números PARES.
+   // Imprimir na tela a contagem regressiva com números PARES armazenada na variável CONTADOR, gradulmente.
    Escreval
    Escreval("+--------------------------------+")
    Para contador de valor ate 0 passo -2 faca

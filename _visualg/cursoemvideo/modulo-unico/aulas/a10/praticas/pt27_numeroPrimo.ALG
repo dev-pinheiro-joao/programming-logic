@@ -16,7 +16,7 @@ inicio
    Escreva("Informe um número(INT): ")
    Leia(numero)
    
-  // Calcular se o número é PRIMO através da quantidade de divisores;
+  // Calcular se o número é PRIMO através da variável DIVISORES.
    Repita
       Se (numero % contador = 0) entao
          divisores <- divisores + 1

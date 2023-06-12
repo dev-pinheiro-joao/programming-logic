@@ -8,9 +8,8 @@ var
    numero: Inteiro
    retorno: Caractere
 
-   // Declaração de Função
 Funcao ParOuImpar (V: Inteiro) : Caractere
-// Função: Retornar se um número é PAR ou ÍMPAR.
+// Função: Retornar se um número é PAR ou ÍMPAR
 inicio
 
    // Determinar se um número é PAR ou ÍMPAR.
@@ -31,10 +30,10 @@ inicio
    Escreva("Informe um número(INT): ")
    Leia(numero)
    
-   // Chamar a Função ParOuImpar, passar a variável numero como parâmetro e atribuit na variável retorno.
+   // Chamar a Função ParOuImpar, passar a variável NUMERO como parâmetro e atribuit na variável RETORNO.
    retorno <- ParOuImpar(numero)
    
-   // Imprimir na tela se o número informado é PAR ou ÍMPAR.
+   // Imprimir na tela se o número informado é PAR ou ÍMPAR, armazenado na variável RETORNO.
    Escreval
    Escreval("+--------------------------+")
    Escreval(" O NÚMERO ", numero, " É: ", retorno)

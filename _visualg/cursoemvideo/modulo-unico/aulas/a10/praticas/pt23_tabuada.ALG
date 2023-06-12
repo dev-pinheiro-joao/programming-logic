@@ -16,7 +16,7 @@ inicio
    Leia(numero)
    Escreval
    
-   // Imprimir na tela a tabuada do número informado pelo usuário.
+   // Imprimir na tela a tabuada do número informado pelo usuário atribuída na variável RESULTADO, gradualmente.
    Escreval("+-----------------------------------+")
    Repita
       resultado <- numero * contador

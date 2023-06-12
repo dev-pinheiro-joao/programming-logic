@@ -1,20 +1,20 @@
 algoritmo "ordenaVetor"
-// ===============================================
-// Disciplina: [Lógica de Programação / Algoritmo]
-// Função: Ordenar valores em um vetor
-// Autor: João Paulo Pinheiro do Nascimento
-//
-// Extra: Disponibilizado pelo Canal CursoEmVideo
-// ===============================================
+// Disciplina : [Lógica de Programação / Algoritmo]
+// Professor  : Gustavo Guanabara - Curso Em Video
+// Descrição  : Ordenar valores em um vetor
+// Autor(a)   : João Paulo Pinheiro Nascimento
 var
+   {Declaração de Variáveis}
    vet: vetor[1..10] de Inteiro
    i, j, auxiliar: Inteiro
 inicio
+
+   // Pedir ao usuário para informar um valor inteiro 10 vezes.
    Escreval("====================================")
    Escreval("       ALGORITMO ORDENA VALOR       ")
    Escreval("====================================")
    Para i <- 1 ate 10 faca
-      Escreva("Digite um valor(int): ")
+      Escreva("Informe um valor(INT): ")
       Leia(vet[i])
    FimPara
    Para i <- 1 ate 9 faca
@@ -26,6 +26,8 @@ inicio
          FimSe
       FimPara
    FimPara
+
+   // Imprimir os valores ordenados (menor para o maior) armazenados no vetor VET.
    Escreval
    Escreval("+----------------------------------+")
    Para i <- 1 ate 10 faca
@@ -33,4 +35,5 @@ inicio
    FimPara
    Escreval
    Escreval("+----------------------------------+")
+
 fimalgoritmo

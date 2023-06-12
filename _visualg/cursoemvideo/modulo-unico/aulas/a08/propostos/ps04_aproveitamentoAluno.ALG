@@ -1,7 +1,7 @@
 algoritmo "aproveitamentoAluno"
 // Disciplina : [Lógica de Programação / Algoritmo]
 // Professor  : Gustavo Guanabara - Curso Em Video
-// Descrição  : Verificar o aproveitamento de um aluno (Modelo USA)
+// Descrição  : Calcular o aproveitamento de um aluno (Modelo USA)
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
    nota1, nota2, media: Real {Declaração de Variáveis}
@@ -16,10 +16,10 @@ inicio
    Escreva("Segunda Nota: ")
    Leia(nota2)
    
-   // Calcular a médias das notas do aluno.
+   // Calcular a médias das notas do aluno e atribuir na variável MEDIA.
    media <- (nota1 + nota2) / 2
    
-   // Imprimir na tela a média e o aproveitamento curricular do aluno.
+   // Imprimir na tela a média do aluno, armazenada na variável MEDIA, e o aproveitamento curricular do aluno.
    Escreval
    Escreval("------- SITUAÇÃO ------")
    Se (media >= 9) e (media <= 10) entao

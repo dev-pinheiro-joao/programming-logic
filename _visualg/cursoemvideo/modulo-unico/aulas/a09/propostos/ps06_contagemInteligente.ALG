@@ -7,7 +7,7 @@ var
    comeco, fim, contador: Inteiro {Declaração de Variáveis}
 inicio
 
-   // Pedir ao usuário para informar dois números.
+   // Pedir ao usuário para informar dois números inteiros.
    Escreval("--------------------")
    Escreval("CONTAGEM INTELIGENTE")
    Escreval("--------------------")
@@ -19,7 +19,7 @@ inicio
    Escreval("  C O N T A N D O   ")
    Escreval("--------------------")
    
-   // Imprimir na tela a contagem em ordem crescente ou descrescente.
+   // Imprimir na tela a contagem em ordem crescente ou descrescente atribuída a variável CONTADOR, gradualmente.
    Se (comeco < fim) entao
       contador <- comeco
       Enquanto (contador <= fim) faca

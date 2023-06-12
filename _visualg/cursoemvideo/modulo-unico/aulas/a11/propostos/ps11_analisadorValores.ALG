@@ -21,7 +21,7 @@ inicio
    Escreval("==================================")
    Escreval("       ALGORITMO ANALISADOR       ")
    Escreval("==================================")
-   Para contador <- 1 ate 5 faca
+   Para contador de 1 ate 5 faca
       Escreva("Informe o ", contador, "° valor(INT): ")
       Leia(valor)
       soma <- soma + valor
@@ -37,7 +37,7 @@ inicio
       FimSe
    FimPara
    
-   // Imprimir na tela a soma geral, soma de pares, média geral, valores divíseis por 5 e nulos.
+   // Imprimir na tela a soma geral, soma de pares, média geral, valores divíseis por 5 e nulos, armazenados nas variáveis SOMA, MEDIA, DIVISORES, NULOS e SOMAPARES.
    Escreval
    Escreval("+--------------------------------+")
    Escreval(" A SOMA ENTRE OS VALORES É:", soma)

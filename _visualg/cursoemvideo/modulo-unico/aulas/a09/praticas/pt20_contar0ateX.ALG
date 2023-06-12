@@ -17,7 +17,7 @@ inicio
    Escreva("Qual será o valor do salto? ")
    Leia(salto)
    
-   // Imprimir na tela a contagem de 0 até o 1° valor dado pelo usuário.
+   // Imprimir na tela a contagem de 0 até o 1° valor dado pelo usuário armazenado na variável VALOR.
    Escreval
    Escreval("+----------------------------+")
    Enquanto (contador <= valor) faca

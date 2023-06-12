@@ -17,7 +17,7 @@ inicio
    Escreva("Quantas vezes você quer converter? ")
    Leia(resposta)
    
-   // Pedir ao usuário para informar um valor em R$ e imprimir na tela o valor convertido em US$.
+   // Pedir ao usuário para informar um valor em R$ e imprimir na tela o valor convertido em US$ armazenado na variável DOLARES.
    Escreval
    Escreval("+----------------------------------+")
    Enquanto (contador <= resposta) faca

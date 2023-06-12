@@ -7,7 +7,7 @@ var
    contador, termo1, termo2, termo3: Inteiro {Declaração de Variáveis}
 inicio
 
-   // Imprimir na tela a Sequência de Fibonacchi com os 15 primeiros termos.
+   // Imprimir na tela a Sequência de Fibonacchi com os 15 primeiros termos, armazenados nas variáveis TERMO1, TERMO2 e TERMO3, gradualmente.
    Escreval("|-------- SEQUÊNCIA DE FIBONACCHI --------|")
    termo1 <- 0
    Escreva (termo1)

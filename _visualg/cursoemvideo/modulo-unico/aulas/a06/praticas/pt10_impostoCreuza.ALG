@@ -14,11 +14,13 @@ inicio
    Escreva("Informe o valor do produto: US$ ")
    Leia(preco)
 
-   // Calcular o imposto cobrado pelo produto importado.
+   // Calcular o imposto cobrado pelo produto importado e atribuir na variável IMPOSTO.
    imposto <- preco * 0.60
+   
+   // Calcular o preco final do produto com os valores das variáveis PRECO e IMPOSTO.
    preco <- preco + imposto
 
-   // Imprimir na tela o valor do imposto e o valor total do produto importado.
+   // Imprimir na tela o valor do imposto e o valor total do produto importado armazenados nas variáveis IMPOSTO e PRECO.
    Escreval
    Escreval("+---------------------------------------+")
    Escreval(" O VALOR DO IMPOSTO É: R$", imposto:5:2)

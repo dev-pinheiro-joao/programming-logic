@@ -6,9 +6,8 @@ algoritmo "somaReferencia"
 var
    X, Y: Inteiro {Declaração de Variáveis}
 
-   // Declaração de Procedimento
 Procedimento Soma(var A, B: Inteiro)
-// Função: Somar dois valores.
+// Função: Somar dois valores
 inicio
 
    // Imprimir na tela a soma dos dois valores.
@@ -32,7 +31,7 @@ inicio
    // Chamar o Procedimento Soma() e passar as variáveis X e Y como parâmetros.
    Soma (X, Y)
    
-   // Imprimir na tela os valores de X e Y.
+   // Imprimir na tela os valores armazenados nas variáveis X e Y.
    Escreval("|- ESCOPO GLOBAL -|")
    Escreval(" VALOR DE X: ", X)
    Escreval(" VALOR DE Y: ", Y)

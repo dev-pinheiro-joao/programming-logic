@@ -9,7 +9,7 @@ var
    resposta: Caractere
 inicio
 
-   // Pedir ao usuário para informar um número para escolher uma opção de contagem.
+   // Pedir ao usuário para informar uma opção de contagem.
    Repita
       Escreval("=================")
       Escreval("|    M E N U    |")
@@ -20,7 +20,7 @@ inicio
       Escreval("=================")
       Leia(resposta)
 
-      // Determinar qual o tipo de contagem foi escolhida pelo usuário e imprimir na tela.
+      // Definiri qual o tipo de contagem foi escolhida pelo usuário e imprimir na tela a contagem atribuída na variável CONTADOR, gradualmente.
       Escolha resposta
       Caso 1
          contador <- 1

@@ -19,7 +19,7 @@ inicio
    Escreval(" [5] para cancelar ")
    Leia(doacao)
    
-   // Determinar qual valor de doação foi escolhido pelo usuário.
+   // Definir qual valor de doação será atribuído na variável VALOR.
    Escolha doacao
    Caso 1
       valor <- 10
@@ -34,7 +34,7 @@ inicio
       valor <- 0
    FimEscolha
    
-   // Imprimir na tela o valor da doação.
+   // Imprimir na tela o valor da doação armazenado na variável VALOR.
    Escreval("-------------------------")
    Escreval(" SUA DOAÇÃO FOI DE R$", valor)
    Escreval(" MUITO OBRIGADO!")

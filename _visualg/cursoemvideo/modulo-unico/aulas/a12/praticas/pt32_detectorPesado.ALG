@@ -9,9 +9,8 @@ var
    nome, pesado: Caractere
    peso, maior: Real
 
-   // Declaração de Procedimento
 Procedimento Topo()
-// Função: Imprimir na tela uma interface padrão.
+// Função: Imprimir na tela uma interface padrão
 inicio
 
    Limpatela
@@ -27,14 +26,14 @@ inicio
    // Chamar o Procedimento Topo().
    Topo()
    
-   // Pedir ao usuário para informar o nome e o peso de uma pessoa.
-   Para contador <- 1 ate 5 faca
+   // Pedir ao usuário para informar o nome e o peso de uma pessoa 5 vezes.
+   Para contador de 1 ate 5 faca
       Escreva("Informe o nome: ")
       Leia(nome)
       Escreva("Informe o peso de ", nome, ": ")
       Leia(peso)
       
-      // Determinar se o peso da pessoa é o maior de todos.
+      // Determinar se o peso da pessoa é o maior de todos e atribuir na variável MAIOR.
       Se (peso > maior) entao
          maior <- peso
          pesado <- nome
@@ -43,7 +42,7 @@ inicio
    FimPara
    Topo()
    
-   // Imprimir na tela o nome e o peso da pessoa mais pesada.
+   // Imprimir na tela o nome e o peso da pessoa mais pesada, armazenados nas variáveis PESADO e MAIOR.
    Escreval("A pessoa mais pesada foi ", pesado, " com ", maior, " quilos.")
    
 fimalgoritmo

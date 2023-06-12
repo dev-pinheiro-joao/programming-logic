@@ -7,7 +7,7 @@ var
    contador: Inteiro {Declaração de Variáveis}
 inicio
 
-   // Imprimir na tela a contagem de 10 até 0.
+   // Imprimir na tela a contagem de 10 até 0 atribuído na variável CONTADOR, gradualmente.
    Escreval("|----- CONTADOR ----|")
    contador <- 10
    Enquanto (contador >= 0) faca

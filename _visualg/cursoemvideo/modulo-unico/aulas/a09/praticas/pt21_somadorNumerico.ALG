@@ -27,7 +27,7 @@ inicio
       contador <- contador + 1
    FimEnquanto
    
-   // Imprimir na tela a soma dos valores, o maior e o menor número dentre eles.
+   // Imprimir na tela a soma dos valores, o maior e o menor número, armazenados nas variáveis SOMA, MAIOR e MENOR, respectivamente.
    Escreval
    Escreval("+----------------------------------+")
    Escreval(" SOMA DE TODOS OS VALORES FOI: ", soma)
