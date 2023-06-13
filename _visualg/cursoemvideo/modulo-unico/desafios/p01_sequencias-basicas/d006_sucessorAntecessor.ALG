@@ -1,31 +1,31 @@
 algoritmo "sucessorAntecessor"
-// ======================================================================
+// ----------------------------------------------------------------------
 // ! Faça um programa que leia um número inteiro e mostre o seu anteces-
 // sor e seu sucessor
 //
 // Autor: João Paulo Pinheiro do Nascimento
-// (PASSO01) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
-// ======================================================================
+// (PASSO01) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// ----------------------------------------------------------------------
 var
-   numero, antecessor, sucessor: Inteiro {Declaração de Variáveis}
+   numero, antecessor, sucessor: Inteiro {Variáveis}
 inicio
 
-   // Pedir ao usuário para informar um número inteiro qualquer.
-   Escreval("=====================================")
-   Escreval("    ALGORITMO ANTECESSOR SUCESSOR    ")
-   Escreval("=====================================")
-   Escreva("Informe um número qualquer(INT): ")
+   // Pedir ao usuário para informar um número inteiro.
+   Escreval("===============================")
+   Escreval(" ALGORITMO ANTECESSOR SUCESSOR ")
+   Escreval("===============================")
+   Escreva("Informe um número (INT): ")
    Leia(numero)
 
-   // Definir os valores antecessores e sucessores do NUMERO.
+   // Calcular os valores antecessores e sucessores do número informado.
    antecessor <- numero - 1
    sucessor <- numero + 1
 
-   // Imprimir na tela o antecessor e sucessor do NUMERO.
+   // Imprimir na tela o antecessor e sucessor do número informado.
    Escreval
-   Escreval("+-----------------------------------+")
-   Escreval(" O ANTECESSOR DE ", numero, " É: ", antecessor)
-   Escreval(" O SUCESSOR DE ", numero, " É: ", sucessor)
-   Escreval("+-----------------------------------+")
+   Escreval("+-----------------------------+")
+   Escreval(" O ANTECESSOR DE", numero, " É:", antecessor)
+   Escreval(" O SUCESSOR   DE", numero, " É:", sucessor)
+   Escreval("+-----------------------------+")
 
 fimalgoritmo

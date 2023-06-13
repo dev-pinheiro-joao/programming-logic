@@ -1,10 +1,10 @@
 algoritmo "valores"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular a média entre dois números
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    numero1, numero2: Inteiro
    media: Real
 inicio
@@ -18,10 +18,10 @@ inicio
    Escreva("Informe outro número(INT): ")
    Leia(numero2)
 
-   // Calcular a média entre os valores armazenados nas variáveis NUMERO1 e NUMERO2.
+   // Calcular a média entre os números informados.
    media <- (numero1 + numero2) / 2
 
-   // Imprimir na tela a média entre os valores, armazenada na variável MEDIA.
+   // Imprimir na tela a média entre os valores.
    Escreval
    Escreval("+---------------------------------+")
    Escreval(" A MÉDIA ENTRE", numero1, " E", numero2, " É: ",  media:4:2)
