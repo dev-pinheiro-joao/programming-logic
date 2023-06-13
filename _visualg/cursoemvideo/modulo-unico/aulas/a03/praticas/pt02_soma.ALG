@@ -1,13 +1,13 @@
 algoritmo "soma"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular a soma entre dois números
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   numero1, numero2, soma: Inteiro {Declaração de Variáveis}
+   numero1, numero2, soma: Inteiro {Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário para informar dois números
+   // Pedir ao usuário para informar dois números inteiros.
    Escreval("==============================")
    Escreval("    ALGORITMO CÁLCULO SOMA    ")
    Escreval("==============================")
@@ -16,13 +16,13 @@ inicio
    Escreva("Informe outro número(INT): ")
    Leia(numero2)
    
-   // Cálculo da soma entre os dois números
+   // Calcular a soma entre os números informados.
    soma <- numero1 + numero2
    
-   // Interface que imprime a soma entre os valores dados pelo usuário
+   // Imprimir na tela a soma dos valores.
    Escreval
-   Escreval("+------------------------------+")
+   Escreval("+----------------------------+")
    Escreval(" A SOMA ENTRE", numero1, " E", numero2, " É:",  soma)
-   Escreval("+------------------------------+")
+   Escreval("+----------------------------+")
 
 fimalgoritmo

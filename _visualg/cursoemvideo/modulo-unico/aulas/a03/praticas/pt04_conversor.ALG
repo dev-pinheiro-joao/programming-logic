@@ -1,27 +1,26 @@
 algoritmo "conversor"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular o seno de um ângulo solicitado
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   angulo, seno: Real {Declaração de Variáveis}
+   angulo, seno: Real {Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário para informar um ângulo(°)
+   // Pedir ao usuário para informar um ângulo de sua escolha.
    Escreval("==========================")
    Escreval("  ALGORTIMO CÁLCULO SENO  ")
    Escreval("==========================")
    Escreva("Informe um ângulo(°): ")
    Leia(angulo)
 
-
-   // Conversão do ângulo de Graus(°) para Radianos para usar na função Sen()
+   // Converter o ângulo de Graus para Radianos e atribuir o valor na variável SENO.
    seno <- Sen(GraupRad(angulo))
 
-   // Interface que imprime o seno do ângulo(°) solicitado para o usuário
+   // Imprimir na tela o seno do ângulo informado pelo usuário.
    Escreval
    Escreval("+------------------------+")
-   Escreval(" O SENO DE", angulo, "° É: ", seno:4:2)
+   Escreval(" O SENO DE ", angulo:1, "° É: ", seno:4:2)
    Escreval("+------------------------+")
    
 fimalgoritmo

@@ -1,4 +1,4 @@
-algoritmo "creuza04"
+algoritmo "impostoCreuza"
 // Disciplina : [Lógica de Programação / Algoritmo]
 // Professor  : Gustavo Guanabara - Curso Em Video
 // Descrição  : Calcular o imposto por produto importado para Creuza
@@ -7,18 +7,20 @@ var
    preco, imposto: Real {Declaração de Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário para informar o valor do produto nos EUA
+   // Pedir ao usuário para informar o valor do produto nos EUA.
    EscrevaL("=========================================")
    Escreval("        ALGORITMO CÁLCULO IMPOSTO        ")
    Escreval("=========================================")
    Escreva("Informe o valor do produto: US$ ")
    Leia(preco)
 
-   // Cálculo do imposto por produto importado
+   // Calcular o imposto cobrado pelo produto importado e atribuir na variável IMPOSTO.
    imposto <- preco * 0.60
+   
+   // Calcular o preco final do produto com os valores das variáveis PRECO e IMPOSTO.
    preco <- preco + imposto
 
-   // Interface que imprime o valor do imposto e o valor total do produto importado
+   // Imprimir na tela o valor do imposto e o valor total do produto importado, armazenados nas variáveis IMPOSTO e PRECO.
    Escreval
    Escreval("+---------------------------------------+")
    Escreval(" O VALOR DO IMPOSTO É: R$", imposto:5:2)
