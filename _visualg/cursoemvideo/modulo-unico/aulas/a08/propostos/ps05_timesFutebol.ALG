@@ -1,7 +1,7 @@
 algoritmo "timesFutebol"
 // Disciplina : [Lógica de Programação / Algoritmo]
 // Professor  : Gustavo Guanabara - Curso Em Video
-// Descrição  : Calcular a média entre dois números
+// Descrição  : Calcular a diferença de gols entre dois times
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
    bangu, madureira, diferenca: Inteiro {Declaração de Variáveis}
@@ -16,7 +16,7 @@ inicio
    Escreva("Quantos gols do MADUREIRA? ")
    Leia(madureira)
    
-   // Definiri o modo como será feito o cálculo da diferença dos gols e atribuir na variável DIFERENCA.
+   // Definir o modo como será feito o cálculo da diferença dos gols e atribuir na variável DIFERENCA.
    Se (bangu > madureira) entao
       diferenca <- bangu - madureira
    senao

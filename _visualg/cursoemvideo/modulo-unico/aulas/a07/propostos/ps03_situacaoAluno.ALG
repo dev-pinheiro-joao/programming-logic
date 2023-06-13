@@ -23,7 +23,7 @@ inicio
    Escreval
    Escreval("------- SITUACAO ------")
    Escreval(" MÉDIA: ", media:3:1)
-   Se (media >=7) entao
+   Se (media >= 7) entao
       Escreval(" ALUNO APROVADO ")
    senao
       Escreval(" ALUNO REPROVADO ")

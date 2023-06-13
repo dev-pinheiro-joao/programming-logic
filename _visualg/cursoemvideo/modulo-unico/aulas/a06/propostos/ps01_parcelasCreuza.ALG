@@ -21,7 +21,7 @@ inicio
    // Calcular o juros do empréstimo e atribuir na variável JUROS.
    juros <- capital + capital * 0.20
 
-   // Imprimir na tela o valor do empréstimo com juros armazenado na variável JUROS.
+   // Imprimir na tela o valor do empréstimo com juros, armazenado na variável JUROS.
    Escreval
    Escreval("+-----------------------------------------+")
    Escreval(" O EMPRÉSTIMO COM 20% DE JUROS É: R$", juros)
@@ -29,7 +29,7 @@ inicio
    // Calcular a quantia das parcelas com os valores das variáveis JUROS e NUMERO.
    parcelas <- juros / numero
    
-   // Imprimir na tela o valor de cada parcela armazenado na variável PARCELAS.
+   // Imprimir na tela o valor de cada parcela, armazenado na variável PARCELAS.
    Escreval(" LOGO, VOU PAGAR ", numero, " PARCELAS DE: R$", parcelas)
    Escreval("+-----------------------------------------+")
    

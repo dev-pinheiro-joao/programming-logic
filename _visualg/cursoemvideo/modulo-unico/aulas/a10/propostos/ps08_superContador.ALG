@@ -20,9 +20,10 @@ inicio
       Escreval("=================")
       Leia(resposta)
 
-      // Definiri qual o tipo de contagem foi escolhida pelo usuário e imprimir na tela a contagem atribuída na variável CONTADOR, gradualmente.
+      // Definir qual o tipo de contagem será feita e imprimir na tela a contagem atribuída na variável CONTADOR, gradualmente.
       Escolha resposta
       Caso 1
+         // Imprimir na tela a contagem em ordem crescente.
          contador <- 1
          Repita
             Escreva(contador, " ..")
@@ -30,6 +31,7 @@ inicio
          Ate (contador > 10)
          Escreval
       Caso 2
+         // Imprimir na tela a contagem em ordem decrescente.
          contador <- 10
          Repita
             Escreva(contador , " ..")
@@ -37,10 +39,12 @@ inicio
          Ate (contador < 1)
          Escreval
       Caso 3
+         // Imprimir na tela a mensagem que o programa encerrou.
          LimpaTela
          Escreva("SAINDO...")
          Escreval
       OutroCaso
+         // Imprimir na tela que o valor informado é inválido.
          Escreva("Valor inválido!")
          Escreval
       FimEscolha

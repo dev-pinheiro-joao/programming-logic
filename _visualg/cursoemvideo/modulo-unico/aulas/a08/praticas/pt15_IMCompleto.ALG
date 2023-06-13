@@ -4,7 +4,7 @@ algoritmo "IMCompleto"
 // Descrição  : Calcular o Índice de Massa Corporal(IMC)
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   massa, altura, imc: Real {Declaração de Variáveis}
+   massa, altura, IMC: Real {Declaração de Variáveis}
 inicio
 
    // Pedir ao usuário para informar sua massa e sua altura.
@@ -17,25 +17,25 @@ inicio
    Leia(altura)
    
    // Calcular o IMC do usuário e atribuir na variável IMC.
-   imc <- massa / (altura ^ 2)
+   IMC <- massa / (altura ^ 2)
    
    // Imprimir na tela o IMC do usuário, armazenado na variável IMC, e sua classificação.
    Escreval
    Escreval("+--------------------------+")
-   Escreval(" SEU IMC É: ", imc:5:2)
+   Escreval(" SEU IMC É: ", IMC:5:2)
    Se (IMC < 17) entao
       Escreval(" MUITO ABAIXO DO PESO")
    senao
-      Se (IMC >=17) e (IMC <= 18.5) entao
+      Se ((IMC >= 17) E (IMC <= 18.5)) entao
          Escreval(" ABAIXO DO PESO")
       senao
-         Se (IMC >= 18.5) e (IMC < 25) entao
+         Se ((IMC >= 18.5) E (IMC < 25)) entao
             Escreval(" PESO IDEAL")
          senao
-            Se (IMC >= 25) e (IMC < 30) entao
+            Se ((IMC >= 25) E (IMC < 30)) entao
                Escreval(" SOBREPESO")
             senao
-               Se (IMC >= 30) e (IMC < 35) entao
+               Se ((IMC >= 30) E (IMC < 35)) entao
                   Escreval(" OBESIDADE SEVERA")
                senao
                   Escreval(" OBESIDADE MÓRBIDA")

@@ -20,7 +20,7 @@ inicio
    // Calcular o preco final do produto com os valores das variáveis PRECO e IMPOSTO.
    preco <- preco + imposto
 
-   // Imprimir na tela o valor do imposto e o valor total do produto importado armazenados nas variáveis IMPOSTO e PRECO.
+   // Imprimir na tela o valor do imposto e o valor total do produto importado, armazenados nas variáveis IMPOSTO e PRECO.
    Escreval
    Escreval("+---------------------------------------+")
    Escreval(" O VALOR DO IMPOSTO É: R$", imposto:5:2)

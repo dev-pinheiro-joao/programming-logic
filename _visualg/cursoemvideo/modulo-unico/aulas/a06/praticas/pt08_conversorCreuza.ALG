@@ -17,7 +17,7 @@ inicio
    // Converter Reais em Dólares e atribuir na variavel DOLARES.
    dolares <- reais / 4.98
 
-   // Imprimir na tela a quantidade de dólares que Creuza pode comprar armazenados na variável DOLARES.
+   // Imprimir na tela a quantidade de dólares, armazenados na variável DOLARES, que Creuza pode comprar.
    Escreval
    Escreval("+-------------------------------------+")
    EscrevaL(" SIGNIFICA QUE POSSO TER: US$", dolares:4:2)

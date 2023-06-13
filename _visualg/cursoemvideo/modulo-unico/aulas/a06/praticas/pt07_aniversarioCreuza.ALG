@@ -19,7 +19,7 @@ inicio
    // Calcular a idade de Creuza com os valores armazenados nas variáveis ANO_ATUAL e ANO_NASC.
    idade <- ano_atual - ano_nasc
 
-   // Imprimir na tela a idade de Creuza armazenada na variável IDADE.
+   // Imprimir na tela a idade de Creuza, armazenada na variável IDADE.
    Escreval
    Escreval("+---------------------------------+")
    Escreval(" MINHA IDADE É: ", idade, " ANO(S)")

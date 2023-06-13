@@ -31,7 +31,7 @@ inicio
       Escreval("[4] Ruivo")
       Leia(cor)
       
-      // Calcular a quantidade total de homens e mulheres que atendem os critérios e atribuir nas variáveis TOTALHOMENS e TOTALMULHERES.
+      // Calcular a quantidade total de homens e mulheres que atendem aos critérios e atribuir nas variáveis TOTALHOMENS e TOTALMULHERES.
       Se ((Maiusc(sexo) = "M") E (idade > 18) E (cor = 2)) entao
          totalHomens <- totalHomens + 1
       FimSe
@@ -42,7 +42,7 @@ inicio
       Leia(resposta)
    Ate (Maiusc(resposta) = "N")
    
-   // Imprimir na tela o total de homens e mulheres que satisfazem uma condição armazenados nas variáveis TOTALHOMENS e TOTALMULHERES.
+   // Imprimir na tela o total de homens e mulheres que satisfazem uma condição, armazenados nas variáveis TOTALHOMENS e TOTALMULHERES.
    LimpaTela
    Escreval("------- RESULTADO FINAL -------")
    Escreval("Total de homens com mais de 18 e cabelos castanhos:", totalHomens)

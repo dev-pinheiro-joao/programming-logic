@@ -7,7 +7,7 @@ var
    contador, numero, soma, maior, menor: Inteiro {Declaração de Variáveis}
 inicio
 
-   // Pedir ao usuário para informar um total de 10 valores.
+   // Pedir ao usuário para informar um total de dez valores.
    contador <- 1
    soma <- 0
    Escreval("===================================")

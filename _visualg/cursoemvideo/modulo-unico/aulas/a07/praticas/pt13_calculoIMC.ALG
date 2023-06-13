@@ -4,7 +4,7 @@ algoritmo "calculoIMC"
 // Descrição  : Calcular o índice de massa corporal(IMC)
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   massa, altura, imc: Real {Declaração de Variáveis}
+   massa, altura, IMC: Real {Declaração de Variáveis}
 inicio
 
    // Pedir ao usuário para informar a sua massa corporal e a sua altura.
@@ -17,13 +17,13 @@ inicio
    Leia(altura)
    
    // Calcular o Índice de Massa Corporal e atribuir na variável IMC.
-   imc <- massa / (altura ^ 2)
+   IMC <- massa / (altura ^ 2)
    
    // Imprimir o IMC do usuário, armazenado na variável IMC, e se o mesmo está ou não no peso ideal.
    Escreval
    Escreval("+-------------------------------+")
-   Escreval(" SEU IMC É: ", imc:5:2)
-   Se (imc >= 18.5) e (imc < 25) entao
+   Escreval(" SEU IMC É: ", IMC:5:2)
+   Se ((IMC >= 18.5) E (IMC < 25)) entao
       Escreval(" VOCÊ ESTÁ NO SEU PESO IDEAL")
    senao
       Escreval(" VOCÊ NÃO ESTÁ NO SEU PESO IDEAL")

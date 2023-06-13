@@ -17,7 +17,7 @@ inicio
    // Converter a temperatura Fahrenheit em Celsius e atribuir na variável CELSIUS.
    celsius <- (fahrenheit - 32) / 1.8
 
-   // Imprimir na tela a temperatura em Celsius (temperatura no Brasil) armazenada na variável CELSIUS.
+   // Imprimir na tela a temperatura em Celsius (temperatura no Brasil), armazenada na variável CELSIUS.
    Escreval
    Escreval("+---------------------------------+")
    Escreval(" NO BRASIL ESTARIA: ", celsius:4:1, "°")

@@ -14,7 +14,7 @@ inicio
    Escreva("Informe um número qualquer(INT): ")
    Leia(numero)
    
-   // Imprimir na tela se um número é ÍMPAR ou PAR.
+   // Imprimir na tela se o número é ÍMPAR ou PAR.
    Escreval
    Escreval("+---------------------------------+")
    Se (numero % 2 = 0) entao

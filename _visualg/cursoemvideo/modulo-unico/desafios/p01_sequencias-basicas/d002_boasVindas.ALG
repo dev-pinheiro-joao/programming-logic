@@ -7,15 +7,20 @@ algoritmo "boasVindas"
 // (PASSO01) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
 // ======================================================================
 var
-   nome: Caractere
+   nome: Caractere {Declaração de Variáveis}
 inicio
+
+   // Pedir ao usuário para informar seu nome.
    Escreval("==========================================")
    Escreval("          ALGORITMO BOAS VINDAS           ")
    Escreval("==========================================")
-   Escreva("Digite qual o seu nome: ")
+   Escreva("Informe qual o seu nome: ")
    Leia(nome)
+
+   // Imprimir na tela uma boas vindas ao usuário.
    Escreval
    Escreval("+----------------------------------------+")
    Escreval(" OLÁ, ", Maiusc(nome), ", É UM PRAZER TE CONHECER")
    Escreval("+----------------------------------------+")
+   
 fimalgoritmo

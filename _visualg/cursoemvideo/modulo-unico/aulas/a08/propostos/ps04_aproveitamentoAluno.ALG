@@ -22,23 +22,23 @@ inicio
    // Imprimir na tela a média do aluno, armazenada na variável MEDIA, e o aproveitamento curricular do aluno.
    Escreval
    Escreval("------- SITUAÇÃO ------")
-   Se (media >= 9) e (media <= 10) entao
+   Se ((media >= 9) E (media <= 10)) entao
       Escreval(" MÉDIA: ", media:4:2)
       Escreval(" APROVEITAMENTO: A")
    senao
-      Se (media >= 8) e (media < 9) entao
+      Se ((media >= 8) E (media < 9)) entao
          Escreval(" MÉDIA: ", media:4:2)
          Escreval(" APROVEITAMENTO: B")
       senao
-         Se (media >= 7) e (media < 8) entao
+         Se ((media >= 7) E (media < 8)) entao
             Escreval(" MÉDIA: ", media:4:2)
             Escreval(" APROVEITAMENTO: C")
          senao
-            Se (media >= 6) e (media < 7) entao
+            Se ((media >= 6) E (media < 7)) entao
                Escreval(" MÉDIA: ", media:4:2)
                Escreval(" APROVEITAMENTO: D")
             senao
-               Se (media >= 5) e (media < 6) entao
+               Se ((media >= 5) E (media < 6)) entao
                   Escreval(" MÉDIA:", media:4:2)
                   Escreval(" APROVEITAMENTO: E")
                senao

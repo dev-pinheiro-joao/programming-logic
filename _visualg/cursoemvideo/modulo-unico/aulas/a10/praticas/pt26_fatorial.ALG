@@ -9,7 +9,7 @@ var
    resposta: Caractere
 inicio
 
-   // Pedir ao usuário para informar um valor para calcular seu fatorial.
+   // Pedir ao usuário para informar um número inteiro para calcular seu fatorial.
    Repita
       LimpaTela
       Escreval("=========================================")
@@ -24,7 +24,7 @@ inicio
          contador <- contador - 1
       Ate (contador < 1)
 
-      // Imprimir na tela o fatorial do valor digitado pelo usuário armazenado na variável FATORIAL.
+      // Imprimir na tela o fatorial do valor digitado pelo usuário, armazenado na variável FATORIAL.
       Escreval
       Escreval("+---------------------------------------+")
       Escreval(" O VALOR DO FATORIAL DE ", numero, " É: ", fatorial)

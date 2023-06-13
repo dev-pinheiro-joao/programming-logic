@@ -7,16 +7,16 @@ var
    contador, numero, resultado: Inteiro {Declaração de Variáveis}
 inicio
 
-   // Pedir ao usuário para informar um número para ver sua tabuada.
+   // Pedir ao usuário para informar um número inteiro.
    contador <- 1
    Escreval("=====================================")
    Escreval("      ALGORITMO CÁLCULO TABUADA      ")
    Escreval("=====================================")
    Escreva("Quer ver a tabuada de qual número? ")
    Leia(numero)
-   Escreval
-   
+
    // Imprimir na tela a tabuada do número informado pelo usuário atribuída na variável RESULTADO, gradualmente.
+   Escreval
    Escreval("+-----------------------------------+")
    Repita
       resultado <- numero * contador
@@ -25,5 +25,5 @@ inicio
    Ate (contador > 10)
    Escreval(" TERMINEI DE CONTAR")
    Escreval("+-----------------------------------+")
-   
+
 fimalgoritmo

@@ -19,14 +19,14 @@ inicio
    // Calcular a média das notas do aluno e atribuir na variável MEDIA.
    media <- (nota1 + nota2) / 2
    
-   // Imprimir na tela a média do aluno, armazenada na variável IDADE, e a sua situação curricular.
+   // Imprimir na tela a média do aluno, armazenada na variável MEDIA, e a sua situação curricular.
    Escreval
    Escreval("+--------------------------+")
    Escreval(" A MÉDIA DO ALUNO É: ", media:4:2)
    Se (media >= 7) entao
       Escreval(" SITUAÇÃO: APROVADO")
    senao
-      Se (media >= 5) e (media < 7) entao
+      Se ((media >= 5) E (media < 7)) entao
          Escreval(" SITUAÇÃO: EM RECUPERAÇÃO")
       senao
          Escreval(" SITUAÇÃO: REPROVADO")

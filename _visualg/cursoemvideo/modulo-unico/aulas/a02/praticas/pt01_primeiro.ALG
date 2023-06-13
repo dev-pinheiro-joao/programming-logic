@@ -7,12 +7,12 @@ var
    msg: Caractere {Declaração de Variáveis}
 inicio
 
-   // Atribuir a mensagem "Olá, Mundo!" na variável msg.
+   // Atribuir a mensagem "Olá, Mundo!" na variável MSG.
    msg <- "Olá, Mundo!"
 
-   // Imprimir na tela a mensagem de boas vindas armazenada na variável MSG.
+   // Imprimir na tela uma mensagem de boas vindas, armazenada na variável MSG.
    Escreval("|---- BOAS VINDAS ----|")
-   Escreval(" MENSAGEM: ",msg)
+   Escreval(" MENSAGEM: ", msg)
    Escreval("|---------------------|")
 
 fimalgoritmo
