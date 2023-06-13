@@ -1,10 +1,10 @@
 algoritmo "operadores"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Comparar expressões lógicas e relacionais
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   a, b, c: Inteiro {Declaração de Variáveis}
+   a, b, c: Inteiro {Variáveis}
 inicio
 
    // Atribuir valores fixos nas variáveis A, B e C.
@@ -15,7 +15,7 @@ inicio
    // Imprimir na tela o resultado lógico das comparações feitas com as variáveis A, B e C.
    Escreval
    Escreval("|----------- COMPARAÇÕES -----------|")
-   Escreval(" COMPARANDO-AS, O RESULTADO É:", NAO((a=b) OU (c>a)))
+   Escreval(" COMPARANDO-AS, O RESULTADO É:", NAO((a = b) OU (c > a)))
    Escreval("|-----------------------------------|")
    
 fimalgoritmo

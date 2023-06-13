@@ -1,6 +1,6 @@
 algoritmo "conversorCreuza"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Converter reais em dólares para a Creuza
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
@@ -8,19 +8,19 @@ var
 inicio
 
    // Pedir ao usuário para informar quantos reais a Creuza possui no momento.
-   Escreval("=======================================")
-   Escreval("      ALGORITMO CONVERSÃO DÓLARES      ")
-   Escreval("=======================================")
-   Escreva("Informe quantos reais eu tenho: R$")
+   Escreval("===============================")
+   Escreval("  ALGORITMO CONVERSÃO DÓLARES  ")
+   Escreval("===============================")
+   Escreva("Quantos reais eu tenho? R$")
    Leia(reais)
 
-   // Converter Reais em Dólares e atribuir na variavel DOLARES.
+   // Calcular a conversão de reais em dólares.
    dolares <- reais / 4.98
 
-   // Imprimir na tela a quantidade de dólares, armazenados na variável DOLARES, que Creuza pode comprar.
+   // Imprimir na tela a quantidade de dólares convertidos.
    Escreval
-   Escreval("+-------------------------------------+")
-   EscrevaL(" SIGNIFICA QUE POSSO TER: US$", dolares:4:2)
-   Escreval("+-------------------------------------+")
+   Escreval("+-----------------------------+")
+   EscrevaL(" POSSO TER: US$", dolares:4:2)
+   Escreval("+-----------------------------+")
    
 fimalgoritmo

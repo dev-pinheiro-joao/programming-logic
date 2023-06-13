@@ -14,7 +14,7 @@ inicio
    Escreva("Informe um ângulo(°): ")
    Leia(angulo)
 
-   // Converter o ângulo de Graus para Radianos e atribuir o valor na variável SENO.
+   // Converter o ângulo de Graus para Radianos.
    seno <- Sen(GraupRad(angulo))
 
    // Imprimir na tela o seno do ângulo informado pelo usuário.

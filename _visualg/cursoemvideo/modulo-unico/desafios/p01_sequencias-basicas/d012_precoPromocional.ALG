@@ -1,13 +1,13 @@
 algoritmo "precoPromocional"
-// ======================================================================
+// ----------------------------------------------------------------------
 // ! Crie um programa que leia o preço de um produto, calcule e mostre o
 // seu PREÇO PROMOCIONAL, com 5% de desconto
 //
 // Autor: João Paulo Pinheiro do Nascimento
-// (PASSO01) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
-// ======================================================================
+// (PASSO01) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// ----------------------------------------------------------------------
 var
-   precoBruto, precoPromo: Real {Declaração de Variáveis}
+   precoBruto, precoPromo: Real {Variáveis}
 inicio
 
    // Pedir ao usuário para informar o valor de um produto (em R$).
@@ -17,10 +17,10 @@ inicio
    Escreva("Informe o valor do produto: R$")
    Leia(precoBruto)
 
-   // Calcular o PREÇO PROMOCINAL (com desconto) do produto.
+   // Calcular o preço promocional (com desconto) do produto.
    precoPromo <- precoBruto * 0.95
 
-   // Imprimir na tela o PREÇO PROMOCIONAL do produto.
+   // Imprimir na tela o preço promocional do produto.
    Escreval
    Escreval("+---------------------------------------+")
    Escreval(" COM O PREÇO PROMOCIONAL FICA: R$", precoPromo:4:2)
