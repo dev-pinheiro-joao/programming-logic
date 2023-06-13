@@ -1,18 +1,18 @@
 algoritmo "valorDelta"
-// ======================================================================
+// ----------------------------------------------------------------------
 // ! Desenvolva uma lógica que leia os valores de A, B e C de uma equação
 // do segundo grau e mostre o valor de Delta
 //
 // Autor: João Paulo Pinheiro do Nascimento
-// (PASSO01) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
-// ======================================================================
+// (PASSO01) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// ----------------------------------------------------------------------
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    a, b, c: Inteiro
-   delta: Real
+   Delta: Real
 inicio
 
-   // Pedir ao usuário para informar três número inteiros.
+   // Pedir ao usuário para informar três números inteiros.
    Escreval("==================================")
    Escreval("   ALGORITMO SEGUNDO GRAU DELTA   ")
    Escreval("==================================")
@@ -23,13 +23,13 @@ inicio
    Escreva("Informe um valor para C(INT): ")
    Leia(c)
 
-   // Calcular o DELTA.
-   delta <- b^2 - 4 * a * c
+   // Calcular o Delta da função do Segundo Grau.
+   Delta <- b ^ 2 - 4 * a * c
 
-   // Imprimir na tela o valor de DELTA.
+   // Imprimir na tela o valor de Delta.
    Escreval
    Escreval("+--------------------------------+")
-   Escreval(" O VALOR DE DELTA É: ", delta)
+   Escreval(" O VALOR DE DELTA É: ", Delta:4:2)
    Escreval("+--------------------------------+")
 
 fimalgoritmo
