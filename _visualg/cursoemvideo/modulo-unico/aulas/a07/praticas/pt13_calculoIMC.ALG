@@ -1,10 +1,10 @@
 algoritmo "calculoIMC"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular o índice de massa corporal(IMC)
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   massa, altura, IMC: Real {Declaração de Variáveis}
+   massa, altura, IMC: Real {Variáveis}
 inicio
 
    // Pedir ao usuário para informar a sua massa corporal e a sua altura.
@@ -16,10 +16,10 @@ inicio
    Escreva("Informe sua altura (M): ")
    Leia(altura)
    
-   // Calcular o Índice de Massa Corporal e atribuir na variável IMC.
+   // Calcular o Índice de Massa Corporal.
    IMC <- massa / (altura ^ 2)
    
-   // Imprimir o IMC do usuário, armazenado na variável IMC, e se o mesmo está ou não no peso ideal.
+   // Imprimir o IMC do usuário e se o mesmo está ou não no seu peso ideal.
    Escreval
    Escreval("+-------------------------------+")
    Escreval(" SEU IMC É: ", IMC:5:2)

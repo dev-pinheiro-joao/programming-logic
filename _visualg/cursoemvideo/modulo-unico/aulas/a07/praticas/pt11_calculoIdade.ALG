@@ -1,10 +1,10 @@
 algoritmo "calculoIdade"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular se o usuário atingiu a maioridade
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   ano, nasc, idade: Inteiro {Declaração de Variáveis}
+   ano, nasc, idade: Inteiro {Variáveis}
 inicio
 
    // Pedir ao usuário para informar o ano atual e o ano de nascimento.
@@ -16,10 +16,10 @@ inicio
    Escreva("Informe que ano você nasceu: ")
    Leia(nasc)
 
-   // Calcular a idade do usuário com os valores das variáveis ANO e NASC.
+   // Calcular a idade do usuário.
    idade <- ano - nasc
 
-   // Imprimir na tela a idade do usuário, armazenada na variável IDADE, e se ele já atingiu a maioridade.
+   // Imprimir na tela a idade do usuário e se ele já atingiu a maioridade.
    Escreval
    Escreval("+---------------------------------+")
    Escreval(" EM", ano, " VOCÊ TERÁ: ", idade, " ANOS")
