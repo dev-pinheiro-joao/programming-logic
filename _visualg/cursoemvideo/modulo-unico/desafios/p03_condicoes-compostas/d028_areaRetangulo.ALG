@@ -6,9 +6,7 @@ algoritmo "areaRetangulo"
 // xo:
 //
 // + Abaixo de 100m2 = TERRENO POPULAR
-//
 // + Entre 100m2 e 500m2 = TERRENO MASTER
-//
 // + Acima de 500m2 = TERRENO VIP
 //
 // Autor: João Paulo Pinheiro do Nascimento
@@ -22,9 +20,9 @@ inicio
    Escreval("=======================================")
    Escreval("   ALGORITMO CÁLCULO ÁREA RETANGULAR   ")
    Escreval("=======================================")
-   Escreva("Digite qual a largura (M): ")
+   Escreva("Informe qual a largura (M): ")
    Leia(largura)
-   Escreva("Digite qual o comprimento (M): ")
+   Escreva("Informe qual o comprimento (M): ")
    Leia(comprimento)
    
    // Calcular a área do terreno.

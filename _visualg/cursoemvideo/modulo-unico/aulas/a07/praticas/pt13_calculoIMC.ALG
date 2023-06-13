@@ -16,10 +16,10 @@ inicio
    Escreva("Informe sua altura (M): ")
    Leia(altura)
    
-   // Calcular o Índice de Massa Corporal.
+   // Calcular o IMC do usuário.
    IMC <- massa / (altura ^ 2)
    
-   // Imprimir o IMC do usuário e se o mesmo está ou não no seu peso ideal.
+   // Imprimir na tela o IMC do usuário e se o mesmo está ou não no seu peso ideal.
    Escreval
    Escreval("+-------------------------------+")
    Escreval(" SEU IMC É: ", IMC:5:2)

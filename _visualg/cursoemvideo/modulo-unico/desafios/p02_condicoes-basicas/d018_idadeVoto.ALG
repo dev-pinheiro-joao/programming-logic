@@ -10,7 +10,7 @@ var
    idade, anoAtual, anoNasc: Inteiro {Variáveis}
 inicio
 
-   // Pedir ao usuário para informa o ano atual e o ano de nascimento.
+   // Pedir ao usuário para informar o ano atual e o ano de nascimento.
    Escreval("============================")
    Escreval("   ALGORITMO CÁLCULO VOTO   ")
    Escreval("============================")
@@ -25,7 +25,7 @@ inicio
    // Imprimir na tela se o usuário já pode votar.
    Escreval
    Escreval("+--------------------------+")
-   Se (idade >= 18) e (idade <= 70) entao
+   Se ((idade >= 18) E (idade <= 70)) entao
       Escreval(" VOCÊ JÁ PODE VOTAR!")
    senao
       Escreval(" VOCÊ AINDA NÃO PODE VOTAR!")

@@ -26,7 +26,7 @@ inicio
    Escreval("+-----------------------------------------+")
    Escreval(" O EMPRÉSTIMO COM 20% DE JUROS É: R$", juros)
    
-   // Calcular a quantia das parcelas com os valores de juros e número de parcelas.
+   // Calcular o valor das parcelas.
    parcelas <- juros / numero
    
    // Imprimir na tela o valor de cada parcela.

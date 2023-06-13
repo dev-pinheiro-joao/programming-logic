@@ -31,15 +31,15 @@ inicio
    // Imprimir na tela as informações de quando o usuário deve fazer o alistamento militar.
    Escreval
    Escreval("+------------------------------------------+")
-   Se (idade < 18) e (idade > 0) entao
+   Se ((idade < 18) E (idade > 0)) entao
       resultado <- 18 - idade
       Escreval(" VOCÊ PODERÁ SE ALISTAR DAQUI A: ", resultado:1, " ANO(S)")
    senao
-      Se (idade > 18) e (idade > 0)  entao
+      Se ((idade > 18) E (idade > 0)) entao
          resultado <- idade - 18
          Escreval(" VOCÊ DEVERIA SE ALISTAR A: ", resultado:1, " ANO(S) ATRAS")
       senao
-         Se (idade = 18) e (idade > 0) entao
+         Se ((idade = 18) E (idade > 0)) entao
             Escreval(" VOCÊ DEVE REALIZAR O ALISTAMENTO ESSE ANO!")
          senao
             Escreval(" ANO DE NASCIMENTO MAIOR QUE A ANO ATUAL!")

@@ -7,7 +7,7 @@ var
    preco, imposto: Real {Variáveis}
 inicio
 
-   // Pedir ao usuário para informar o valor do produto nos EUA.
+   // Pedir ao usuário para informar o valor de um produto (em US$).
    EscrevaL("=====================================")
    Escreval("      ALGORITMO CÁLCULO IMPOSTO      ")
    Escreval("=====================================")
@@ -17,7 +17,7 @@ inicio
    // Calcular o imposto cobrado pelo produto importado.
    imposto <- preco * 0.60
    
-   // Calcular o preco final do produto com os valores de preço e imposto.
+   // Calcular o preco final do produto.
    preco <- preco + imposto
 
    // Imprimir na tela o valor do imposto e o valor total do produto importado.

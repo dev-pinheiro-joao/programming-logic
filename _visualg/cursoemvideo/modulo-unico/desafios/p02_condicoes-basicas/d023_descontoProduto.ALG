@@ -1,10 +1,9 @@
 algoritmo "descontoProduto"
 // ----------------------------------------------------------------------
-// ! Faça um programa que leia nome, sexo e o valor das compras do cliente
-// e calcule o preço com desconto. Sabendo que:
+// ! Faça um programa que leia nome, sexo e o valor das compras do clien-
+// te e calcule o preço com desconto. Sabendo que:
 //
 // + Homens ganham 5% de desconto
-//
 // + Mulheres ganham 13% de desconto
 //
 // Autor: João Paulo Pinheiro do Nascimento
@@ -27,7 +26,7 @@ inicio
    Escreva("Informe o valor das suas compras: R$")
    Leia(valor)
 
-   // Calcular e imprimir na tela o valor das compras com desconto.
+   // Imprimir na tela o valor das compras com desconto.
    Escreval
    Escreval("+----------------------------------------------------+")
    Se (Maiusc(sexo) = "F") entao

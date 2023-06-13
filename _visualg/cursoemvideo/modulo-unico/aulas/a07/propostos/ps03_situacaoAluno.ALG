@@ -22,7 +22,7 @@ inicio
    // Imprimir na tela a média do aluno e sua situação curricular.
    Escreval
    Escreval("------- SITUACAO ------")
-   Escreval(" MÉDIA: ", media:3:2)
+   Escreval(" MÉDIA: ", media:2:2)
    Se (media >= 7) entao
       Escreval(" ALUNO APROVADO ")
    senao

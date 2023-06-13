@@ -4,7 +4,7 @@ algoritmo "conversorCreuza"
 // Descrição  : Converter reais em dólares para a Creuza
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   reais, dolares: Real {Declaração de Variáveis}
+   reais, dolares: Real {Variáveis}
 inicio
 
    // Pedir ao usuário para informar quantos reais a Creuza possui no momento.

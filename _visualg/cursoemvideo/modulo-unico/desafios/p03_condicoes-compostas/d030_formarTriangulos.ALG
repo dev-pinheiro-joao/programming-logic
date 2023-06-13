@@ -4,9 +4,7 @@ algoritmo "formarTriangulos"
 // mostrar que tipo de triângulo será formado:
 //
 // + EQUILÁTERO: todos os lados iguais
-//
 // + ISÓSCELES: dois lados iguais
-//
 // + ESCALENO: todos os lados diferentes
 //
 // Autor: João Paulo Pinheiro do Nascimento
@@ -27,7 +25,7 @@ inicio
    escreva("Informe o tamanho do 3° segmento: ")
    Leia(segmento3)
 
-   // Calcular e imprimir na tela se é possível formar um triângulo e qual o seu tipo.
+   // CImprimir na tela se é possível formar um triângulo e qual o seu tipo.
    Escreval
    Escreval("+-----------------------------------+")
    Se ((segmento1 < segmento2 + segmento3) E (segmento2 < segmento1 + segmento3) E (segmento3 < segmento1 + segmento2)) entao
@@ -45,4 +43,5 @@ inicio
       Escreval(" NÃO É POSSÍVEL FORMAR UM TRIÂNGULO!")
    FimSe
    Escreval("+-----------------------------------+")
+   
 fimalgoritmo

@@ -1,6 +1,6 @@
 algoritmo "criançaEsperança"
 // Disciplina: [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Simular o sistema de doação do Criança Esperança
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
@@ -19,7 +19,7 @@ inicio
    Escreval(" [5] para cancelar ")
    Leia(doacao)
    
-   // Definir qual valor de doação será atribuído na variável VALOR.
+   // Definir qual será o valor de doação.
    Escolha doacao
    Caso 1
       valor <- 10
@@ -34,7 +34,7 @@ inicio
       valor <- 0
    FimEscolha
    
-   // Imprimir na tela o valor da doação, armazenado na variável VALOR.
+   // Imprimir na tela o valor da doação.
    Escreval("-------------------------")
    Escreval(" SUA DOAÇÃO FOI DE R$", valor)
    Escreval(" MUITO OBRIGADO!")

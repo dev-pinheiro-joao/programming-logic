@@ -16,8 +16,8 @@ inicio
    Escreval("============================")
    Escreva("Informe um ano: ")
    Leia(ano)
-   
-   // Calcular e imprimir na tela se o ano é bissexto ou não.
+
+   // Imprimir na tela se o ano é bissexto ou não.
    Escreval
    Escreval("+--------------------------+")
    se ((ano % 4 = 0) E (ano % 100 <> 0)) OU (ano % 400 = 0) entao

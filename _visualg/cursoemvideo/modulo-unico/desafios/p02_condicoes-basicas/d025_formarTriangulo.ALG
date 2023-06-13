@@ -7,13 +7,13 @@ algoritmo "formarTriangulo"
 // tros dois.
 //
 // Autor: João Paulo Pinheiro do Nascimento
-// (PASSO02) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
+// (PASSO02) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
 // ----------------------------------------------------------------------
 var
    segmento1, segmento2, segmento3: Real {Variáveis}
 inicio
 
-   // Pedir ao usuário para informar três números qualquer.
+   // Pedir ao usuário para informar três números quaisquer.
    Escreval("=====================================")
    Escreval("    ALGORITMO DETERMINA TRIÂNGULO    ")
    Escreval("=====================================")
@@ -24,7 +24,7 @@ inicio
    Escreva("Informe o 3° segmento de reta: ")
    Leia(segmento3)
 
-   // Calcular e imprimir na tela se é possível ou não formar um triângulo com os valores informados.
+   // Imprimir na tela se é possível ou não formar um triângulo com os valores informados.
    Escreval
    Escreval("+-----------------------------------+")
    Se ((segmento1 < segmento2 + segmento3) E (segmento2 < segmento1 + segmento3) E (segmento3 < segmento1 + segmento2)) entao
@@ -33,4 +33,5 @@ inicio
       Escreval(" NÃO É POSSÍVEL FORMAR UM TRIÂNGULO!")
    FimSe
    Escreval("+-----------------------------------+")
+   
 fimalgoritmo

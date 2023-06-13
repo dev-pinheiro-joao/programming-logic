@@ -17,7 +17,7 @@ inicio
    Escreva("Informe um número (INT): ")
    Leia(numero)
 
-   // Calcular os valores antecessores e sucessores do número informado.
+   // Calcular o valores antecessor e sucessor do número informado.
    antecessor <- numero - 1
    sucessor <- numero + 1
 

@@ -1,10 +1,10 @@
 algoritmo "dependentesFuncionario"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular o novo salário de um funcionário
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    nome: Caractere
    salario, novo_salario: Real
    dependentes: Inteiro
@@ -21,19 +21,19 @@ inicio
    Escreva("Informe a quantidade de dependentes: ")
    Leia(dependentes)
    
-   // Definir qual o cálculo do novo salário será utilizado e atribuído na variável NOVO_SALARIO.
+   // Definir qual o cálculo do novo salário será utilizado.
    Escolha dependentes
    Caso 0
-      novo_salario <- salario + (salario * 5 / 100)
+      novo_salario <- salario * 1.05
    Caso 1, 2, 3
-      novo_salario <- salario + (salario * 10 / 100)
+      novo_salario <- salario * 1.10
    Caso 4, 5, 6
-      novo_salario <- salario + (salario * 15 / 100)
+      novo_salario <- salario * 1.15
    OutroCaso
-      novo_salario <- salario + (salario * 18 / 100)
+      novo_salario <- salario * 1.18
    FimEscolha
    
-   // Imprimir na tela o novo salário do funcionário, armazenado na variável NOVO_SALARIO.
+   // Imprimir na tela o novo salário do funcionário.
    Escreval
    Escreval("+--------------------------------------------+")
    Escreval(" O NOVO SALÁRIO DE ", Maiusc(nome), " SERÁ: R$", novo_salario:5:2)

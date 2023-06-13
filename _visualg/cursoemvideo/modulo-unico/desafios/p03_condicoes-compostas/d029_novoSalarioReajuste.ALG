@@ -5,9 +5,7 @@ algoritmo "novoSalarioReajuste"
 // reajustado de acordo com a tabela a seguir:
 //
 // + Até 3 anos de empresa: aumento de 3%
-//
 // + Entre 3 e 10 anos: aumento de 12.5%
-//
 // + 10 anos ou mais: aumento de 20%
 //
 // Autor: João Paulo Pinheiro do Nascimento
@@ -31,7 +29,7 @@ inicio
    Escreva("Informe há quantos anos trabalha na empresa: ")
    Leia(ano)
 
-   // Calcular e imprimir na tela o novo salário do funcionário.
+   // Imprimir na tela o novo salário do funcionário.
    Escreval
    Escreval("+---------------------------------------------+")
    Se (ano <= 3) entao

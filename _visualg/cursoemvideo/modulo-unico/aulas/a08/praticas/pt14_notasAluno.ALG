@@ -1,10 +1,10 @@
 algoritmo "notasAluno"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Verificar a situação de notas do aluno
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   nota1, nota2, media: Real {Declaração de Variáveis}
+   nota1, nota2, media: Real {Variáveis}
 inicio
 
    // Pedir ao usuário para informar as duas notas do aluno.
@@ -16,13 +16,13 @@ inicio
    Escreva("Segunda Nota: ")
    Leia(nota2)
    
-   // Calcular a média das notas do aluno e atribuir na variável MEDIA.
+   // Calcular a média das notas do aluno.
    media <- (nota1 + nota2) / 2
    
-   // Imprimir na tela a média do aluno, armazenada na variável MEDIA, e a sua situação curricular.
+   // Imprimir na tela a média do aluno e a sua situação curricular.
    Escreval
    Escreval("+--------------------------+")
-   Escreval(" A MÉDIA DO ALUNO É: ", media:4:2)
+   Escreval(" A MÉDIA DO ALUNO É: ", media:2:2)
    Se (media >= 7) entao
       Escreval(" SITUAÇÃO: APROVADO")
    senao

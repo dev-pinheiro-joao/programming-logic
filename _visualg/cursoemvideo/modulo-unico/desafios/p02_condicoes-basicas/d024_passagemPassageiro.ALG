@@ -18,7 +18,7 @@ inicio
    Escreva("Informe a distância (KM): ")
    Leia(distancia)
 
-   // Calcular e imprimir na tela o valor total da passagem.
+   // Imprimir na tela o valor total da passagem.
    Escreval
    Escreval("+---------------------------------------+")
    Se (distancia <= 200) entao
