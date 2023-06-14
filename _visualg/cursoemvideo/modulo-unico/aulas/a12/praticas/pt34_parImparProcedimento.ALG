@@ -1,16 +1,16 @@
 algoritmo "parImparProcedimento"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
-// Descrição  : Escrever se um número é PAR ou ÍMPAR usando procedimentos
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
+// Descrição  : Escrever se um número é PAR ou ÍMPAR
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   numero: Inteiro {Declaração de Variáveis}
+   numero: Inteiro {Variáveis}
 
 Procedimento ParOuImpar(V: Inteiro)
-// Função: Verificar se um número é ÍMPAR ou PAR
+// Função: Verificar se um número é ímpar ou par
 inicio
 
-   // Imprimir na tela se o número é ÍMPAR ou PAR.
+   // Imprimir na tela se o número é ímpar ou par.
    Escreval
    Escreval("+--------------------------+")
    Se (V % 2 = 0) entao
@@ -19,7 +19,6 @@ inicio
       Escreval(" O NÚMERO: ", V, " É PAR")
    FimSe
    Escreval("+--------------------------+")
-
 FimProcedimento
 
 inicio

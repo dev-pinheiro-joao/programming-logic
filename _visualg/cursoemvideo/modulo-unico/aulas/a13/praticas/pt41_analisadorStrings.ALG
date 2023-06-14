@@ -1,10 +1,10 @@
 algoritmo "analisadorStrings"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Escrever as principais funções de manipulação de strings
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    nome: Caractere
    contador: Inteiro
 inicio
@@ -28,7 +28,7 @@ inicio
    Escreval(" CÓDIGO DA LETRA 'A': ", Asc("A"))
    Escreval(" LETRA DE CÓDIGO 65: ", Carac(65))
    Escreva(" SEU NOME AO CONTRÁRIO: ")
-   Para contador de Compr(nome) ate 1 passo - 1 faca
+   Para contador de Compr(nome) ate 1 passo -1 faca
       Escreva(Copia(Maiusc(nome), contador, 1))
    FimPara
    Escreval

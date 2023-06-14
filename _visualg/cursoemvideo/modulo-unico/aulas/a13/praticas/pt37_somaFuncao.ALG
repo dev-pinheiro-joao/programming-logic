@@ -1,18 +1,17 @@
 algoritmo "somaFuncao"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Somar valores usando funções
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   valor1, valor2, retorno: Inteiro {Declaração de Variáveis}
+   valor1, valor2, retorno: Inteiro {Variáveis}
 
 Funcao Soma(X, Y: Inteiro) : Inteiro
 // Função: Retornar a soma de dois valores
 inicio
 
-   // Retornar a soma de X (valor1) e Y (valor2).
+   // Retornar a soma de X e Y.
    Retorne X + Y
-
 FimFuncao
 
 inicio
@@ -26,10 +25,10 @@ inicio
    Escreva("Informe o segundo valor(INT): ")
    Leia(valor2)
 
-   // Chamar a Função Soma(), passar as variáveis VALOR1 e VALOR2 como parâmetros e atribuir na variável RETORNO.
+   // Chamar a Função Soma() e passar as variáveis VALOR1 e VALOR2 como parâmetros.
    retorno <- Soma(valor1, valor2)
 
-   // Imprimir na tela a soma entre os valores, armazenada na variável RETORNO.
+   // Imprimir na tela a soma entre os valores.
    Escreval
    Escreval("+-----------------------------+")
    Escreval(" A SOMA ENTRE ", valor1, " E ", valor2, " É: ", retorno)

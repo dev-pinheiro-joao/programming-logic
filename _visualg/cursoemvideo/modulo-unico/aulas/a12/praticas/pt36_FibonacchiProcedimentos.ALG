@@ -1,40 +1,39 @@
-algoritmo "fibonacchiProcedimentos"
+algoritmo "fibonacciProcedimentos"
 // Disciplina : [Lógica de Programação / Algoritmo]
 // Professor  : Gustavo Guanabara - Curso Em Video
-// Descrição  : Escrever a Sequência de Fibonnachi usando prodedimentos
+// Descrição  : Escrever a Sequência de Fibonnacci
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   contador, termo1, termo2: Inteiro {Declaração de Variáveis}
+   contador, termo1, termo2: Inteiro {Variáveis}
 
-Procedimento ProximoFibonacchi(var A, B: Inteiro)
-// Função: Somar e trocar termos da Sequência de Fibonacchi
+Procedimento ProximoFibonacci(var A, B: Inteiro)
+// Função: Imprimir na tela a Sequência de Fibonacci
 var
-   C: Inteiro {Declaração de Variáveis (Procedimento)}
+   C: Inteiro {Variáveis (Procedimento)}
 inicio
 
-   // Atribuir no na variável C a soma das variáveis A (1° termo) e B (3° termo) e imprimir na tela.
+   // Calcular a soma do 1° e do 2° termo de Fibonacci.
    C <- A + B
    Escreva(C)
 
-   // Atribuir na variável A o valor da variável B (2° termo)
+   // Substituir o valor do 1° termo pelo valor do 2° termo.
    A <- B
 
-   // Atribuir na variável B o valor da variável C (3° termo)
+   // Substituir o valor do 2° termo pelo valor do 3° termo.
    B <- C
-
 FimProcedimento
 
 inicio
 
-   // Imprimir na tela a sequência de Fibonacchi com os 10 primeiros termos, armazenados nas variáveis TERMO1, TERMO2 e C, gradualmente.
-   Escreval("|----- FIBONACCHI -----|")
+   // Imprimir na tela a Sequência de Fibonacci com os 10 primeiros termos.
+   Escreval("|------ FIBONACCI -----|")
    termo1 <- 0
-   Escreva (termo1)
    termo2 <- 1
+   Escreva (termo1)
    Escreva (termo2)
    Para contador de 3 ate 10 faca
-      // Chamar o Procedimento ProximoFibonacchi() passando as variáveis TERMO1 e TERMO2 como parâmetros.
-      ProximoFibonacchi(termo1, termo2)
+      // Chamar o Procedimento ProximoFibonacci() passando as variáveis TERMO1 e TERMO2 como parâmetros.
+      ProximoFibonacci(termo1, termo2)
    FimPara
    Escreval
    Escreval("|----------------------|")

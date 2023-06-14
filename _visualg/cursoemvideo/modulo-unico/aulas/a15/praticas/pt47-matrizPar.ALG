@@ -1,10 +1,10 @@
 algoritmo "matrizPar"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Escrever os números pares na matriz
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    v: vetor[1..3, 1..3] de Inteiro
    l, c, totalPar: Inteiro
 inicio
@@ -20,7 +20,7 @@ inicio
       FimPara
    FimPara
    
-   // Imprimir na tela a matriz (visualmente) armazenada no vetor V.
+   // Imprimir na tela a matriz 3x3 (visualmente).
    Escreval
    Escreval("MATRIZ")
    Escreval("-------------")
@@ -37,7 +37,7 @@ inicio
       Escreval
    FimPara
    
-   // Imprimir na tela a quantidade de valores pares informados, armazenados na variáveil TOTALPAR.
+   // Imprimir na tela a quantidade de valores pares informados.
    Escreval
    Escreval("+------------------------------------------+")
    Escreval(" AO TODO FORAM DIGITADOS: ", totalPar, " VALORES PARES")

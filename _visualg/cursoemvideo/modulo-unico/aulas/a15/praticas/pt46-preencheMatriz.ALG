@@ -1,10 +1,10 @@
 algoritmo "preencheMatriz"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Preencher uma matriz 3x2 pelo teclado
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    mat: vetor[1..3, 1..2] de Inteiro
    l, c: Inteiro
 inicio
@@ -20,7 +20,7 @@ inicio
       FimPara
    FimPara
 
-   // Imprimir na tela a matriz (visualmente) armazenada no vetor MAT.
+   // Imprimir na tela a matriz 3x2 (visualmente).
    Escreval
    Escreval("+------------------------------------+")
    Para l de 1 ate 3 faca
