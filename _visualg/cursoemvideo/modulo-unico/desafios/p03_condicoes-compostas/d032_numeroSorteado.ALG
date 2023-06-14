@@ -13,7 +13,7 @@ var
 inicio
 
    // Sortear um número entre 1 e 5.
-   numRandom <- rand * 5 + 1
+   numRandom <- Rand * 5 + 1
 
    // Pedir ao usuário para informar um número entre 1 e 5.
    Escreval("========================================")
@@ -25,7 +25,7 @@ inicio
    // Imprimir na tela o resultado do chute do usuário.
    Escreval
    Escreval("+--------------------------------------+")
-   Se (chute = INT(numRandom)) entao
+   Se (chute = Int(numRandom)) entao
       Escreval(" SEU CHUTE FOI CERTEIRO, VOCÊ ACERTOU!")
    senao
       Escreval(" SEU CHUTE PASSOU PERTO... VOCÊ ERROU!")

@@ -1,28 +1,28 @@
 algoritmo "contagemIncrementoNovo"
-// ==================================================================
-// ! O programa do 'd041_contagemIncremento' vai ter um problema quan-
-// do digitarmos o primeiro valor maior que o último. Resolva esse
-// problema com um código que funcione em qualquer situação.
+// ----------------------------------------------------------------------
+// ! O programa 'd041_contagemIncremento' vai ter um problema quando di-
+// gitarmos o primeiro valor maior que o último. Resolva esse problema
+// com um código que funcione em qualquer situação
 //
 // Autor: João Paulo Pinheiro do Nascimento
-//(PASSO04) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
-// =====================================================================
+// (PASSO04) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// ----------------------------------------------------------------------
 var
-   valorInicial, valorFinal, incremento: Inteiro {Declaração de Variáveis}
+   valorInicial, valorFinal, incremento: Inteiro {Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário para informar três números
+   // Pedir ao usuário para informar três números inteiros.
    Escreval("=========================================")
    Escreval("    ALGORITMO CONTAGEM COM INCREMENTO    ")
    Escreval("=========================================")
-   Escreva("Informe um primeiro valor: ")
+   Escreva("Informe um primeiro valor(INT): ")
    Leia(valorInicial)
-   Escreva("Informe um último valor: ")
+   Escreva("Informe um último valor(INT): ")
    Leia(valorFinal)
-   Escreva("Digite o incremento: ")
+   Escreva("Digite o incremento(INT): ")
    Leia(incremento)
 
-   // Interface que imprime a contagem entre dois números em ordem crescente ou descrescente
+   // Imprimir na tela a contagem entre os dois números informados, em ordem crescente ou decrescente.
    Escreval
    Escreval("+---------------------------------------+")
    Se (valorInicial < valorFinal) entao

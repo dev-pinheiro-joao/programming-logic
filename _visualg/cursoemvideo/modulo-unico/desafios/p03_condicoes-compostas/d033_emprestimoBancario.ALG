@@ -7,7 +7,7 @@ algoritmo "emprestimoBancario"
 // ou então o empréstimo será negado.
 //
 // Autor: João Paulo Pinheiro do Nascimento
-//(PASSO03) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// (PASSO03) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
 // ----------------------------------------------------------------------
 var
    {Variáveis}

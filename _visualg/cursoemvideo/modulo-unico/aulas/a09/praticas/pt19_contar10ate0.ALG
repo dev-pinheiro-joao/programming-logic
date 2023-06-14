@@ -4,7 +4,7 @@ algoritmo "contar10ate0"
 // Descrição  : Contar de 10 até 0
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   contador: Inteiro {Declaração de Variáveis}
+   contador: Inteiro {Variáveis}
 inicio
 
    // Imprimir na tela a contagem de dez até zero.

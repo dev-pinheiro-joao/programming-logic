@@ -1,11 +1,11 @@
 algoritmo "fatorial"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular o fatorial de um número
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
-   contador, numero, fatorial: Inteiro
+   {Variáveis}
+   contador, numero, fatorial: Real
    resposta: Caractere
 inicio
 
@@ -24,10 +24,10 @@ inicio
          contador <- contador - 1
       Ate (contador < 1)
 
-      // Imprimir na tela o fatorial do valor digitado pelo usuário, armazenado na variável FATORIAL.
+      // Imprimir na tela o fatorial do valor digitado pelo usuário.
       Escreval
       Escreval("+---------------------------------------+")
-      Escreval(" O VALOR DO FATORIAL DE ", numero, " É: ", fatorial)
+      Escreval(" O VALOR DO FATORIAL DE", numero, " É: ", fatorial:1)
       Escreval("+---------------------------------------+")
       Escreva(" QUER CONTINUAR [S/N]? ")
       Leia(resposta)

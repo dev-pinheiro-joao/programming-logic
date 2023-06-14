@@ -1,10 +1,10 @@
 algoritmo "superContador"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Criar um contador através de menus
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    contador: Inteiro
    resposta: Caractere
 inicio
@@ -20,7 +20,7 @@ inicio
       Escreval("=================")
       Leia(resposta)
 
-      // Definir qual o tipo de contagem será feita e imprimir na tela a contagem atribuída na variável CONTADOR, gradualmente.
+      // Definir qual o tipo de contagem será feita.
       Escolha resposta
       Caso 1
          // Imprimir na tela a contagem em ordem crescente.

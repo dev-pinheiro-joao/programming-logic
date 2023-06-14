@@ -17,11 +17,11 @@ inicio
    Escreva("Quantas vezes você quer converter? ")
    Leia(resposta)
    
-   // Pedir ao usuário para informar um valor em R$.
+   // Pedir ao usuário para informar um valor (em R$).
    Escreval
    Escreval("+----------------------------------+")
    Enquanto (contador <= resposta) faca
-      Escreva(" DIGITE O VALOR: R$")
+      Escreva(" INFORME O VALOR: R$")
       Leia(reais)
       
       // Calcular a conversão de reais para dólares.

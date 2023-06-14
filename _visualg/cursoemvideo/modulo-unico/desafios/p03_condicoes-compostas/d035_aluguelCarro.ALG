@@ -27,16 +27,16 @@ inicio
    Escreval("  ALGORITMO CÁLCULO VALOR TOTAL DO ALUGUEL A SER PAGO  ")
    Escreval("=======================================================")
    Escreva("Informe por quantos dias o veículo foi alugado: ")
-   leia(dia)
+   Leia(dia)
    Escreva("Informe quantos quilômetros foram percorridos: ")
-   leia(distancia)
+   Leia(distancia)
    Escreva("Informe o tipo do carro alugado(Popular/Luxo):")
-   leia(tpo)
+   Leia(tpo)
 
    // Imprimir o preço total do aluguel a ser pago.
    Escreval
    Escreval("+-----------------------------------------------------+")
-   Se (maiusc(tpo) = "POPULAR") entao
+   Se (Maiusc(tpo) = "POPULAR") entao
       dia <- dia * 90
       Se (distancia <= 100) entao
          distancia <- distancia * 0.20
@@ -46,7 +46,7 @@ inicio
       aluguel <- dia + distancia
       Escreval(" O VALOR DO ALUGUEL A SER PAGO É: R$", aluguel:4:2)
    senao
-      Se (maiusc(tpo) = "LUXO") entao
+      Se (Maiusc(tpo) = "LUXO") entao
          dia <- dia * 150
          Se (distancia <= 200) entao
             distancia <- distancia * 0.30

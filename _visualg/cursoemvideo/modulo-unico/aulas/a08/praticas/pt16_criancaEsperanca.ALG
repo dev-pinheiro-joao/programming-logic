@@ -4,7 +4,7 @@ algoritmo "criançaEsperança"
 // Descrição  : Simular o sistema de doação do Criança Esperança
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   doacao, valor : Inteiro {Declaração de Variáveis}
+   doacao, valor : Inteiro {Variáveis}
 inicio
 
    // Pedir ao usuário para informar uma opção de doação.

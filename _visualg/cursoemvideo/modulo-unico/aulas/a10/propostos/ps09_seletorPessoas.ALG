@@ -1,14 +1,14 @@
 algoritmo "seletorPessoas"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Escrever na tela:
 //
-// * Total de HOMENS com mais de 18 ANOS e cabelos CASTANHOS
-// * Total de MULHERES entre 25 e 30 ANOS e cabelos LOIROS
+// + Total de HOMENS com mais de 18 ANOS e cabelos CASTANHOS
+// + Total de MULHERES entre 25 e 30 ANOS e cabelos LOIROS
 //
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    sexo, resposta: Caractere
    idade, cor, totalHomens, totalMulheres: Inteiro
 inicio
@@ -31,7 +31,7 @@ inicio
       Escreval("[4] Ruivo")
       Leia(cor)
       
-      // Calcular a quantidade total de homens e mulheres que atendem aos critérios e atribuir nas variáveis TOTALHOMENS e TOTALMULHERES.
+      // Calcular a quantidade total de homens e mulheres que atendem aos critérios.
       Se ((Maiusc(sexo) = "M") E (idade > 18) E (cor = 2)) entao
          totalHomens <- totalHomens + 1
       FimSe
@@ -42,7 +42,7 @@ inicio
       Leia(resposta)
    Ate (Maiusc(resposta) = "N")
    
-   // Imprimir na tela o total de homens e mulheres que satisfazem uma condição, armazenados nas variáveis TOTALHOMENS e TOTALMULHERES.
+   // Imprimir na tela o total de homens e mulheres que satisfazem a condição supracitada.
    LimpaTela
    Escreval("------- RESULTADO FINAL -------")
    Escreval("Total de homens com mais de 18 e cabelos castanhos:", totalHomens)

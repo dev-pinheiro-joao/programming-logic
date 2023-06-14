@@ -1,18 +1,17 @@
 algoritmo "contadorDivisoresPor4"
-// =====================================================================
-// ! Desenvolva um algoritmo que mostre uma contagem regressiva de 30
-// até 1, marcando os números que forem divisíveis por 4, exatamente co-
-// mo mostrado abaixo: 30 29 [28] 27 26 25 [24] 23 22 21 [20] 19 18 17
-// [16]...
+// ----------------------------------------------------------------------
+// ! Desenvolva um algoritmo que mostre uma contagem regressiva de 30 até
+// 1, marcando os números que forem divisíveis por 4, exatamente como
+// mostrado abaixo: 30 29 [28] 27 26 25 [24] 23 22 21 [20] 19 18 17 [16]
 //
 // Autor: João Paulo Pinheiro do Nascimento
-//(PASSO04) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
-// =====================================================================
+// (PASSO04) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// ----------------------------------------------------------------------
 var
-   contador: Inteiro {Declaração de Variáveis}
+   contador: Inteiro {Variáveis}
 inicio
 
-   // Interface que imprime uma contagem de 30 até 1 destacando os números divisíveis por 4
+   // Imprimir na tela uma contagem de trinta até um, destacando os números divisíveis por 4.
    Escreval("|--------------------------- CONTADOR ---------------------------|")
    contador <- 30
    Escreva(" CONTAGEM: ")
@@ -24,5 +23,7 @@ inicio
       FimSe
       contador <- contador - 1
    FimEnquanto
+   Escreval
+   Escreval("|----------------------------------------------------------------|")
    
 fimalgoritmo
