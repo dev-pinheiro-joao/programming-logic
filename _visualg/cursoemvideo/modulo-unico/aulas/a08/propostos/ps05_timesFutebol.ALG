@@ -1,10 +1,10 @@
 algoritmo "timesFutebol"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular a diferença de gols entre dois times
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   bangu, madureira, diferenca: Inteiro {Declaração de Variáveis}
+   bangu, madureira, diferenca: Inteiro {Variáveis}
 inicio
 
    // Pedir ao usuário para informar quantos gols cada um dos times marcou.
@@ -16,14 +16,14 @@ inicio
    Escreva("Quantos gols do MADUREIRA? ")
    Leia(madureira)
    
-   // Definir o modo como será feito o cálculo da diferença dos gols e atribuir na variável DIFERENCA.
+   // Definir o modo como será feito o cálculo da diferença dos gols.
    Se (bangu > madureira) entao
       diferenca <- bangu - madureira
    senao
       diferenca <- madureira - bangu
    FimSe
    
-   // Imprimir na tela a diferença de gols, armazenada na variável DIFERENCA, e o status da partida.
+   // Imprimir na tela a diferença de gols e o status da partida.
    Escreval
    Escreval("------- PARTIDA -------")
    Escreval(" DIFERENÇA: ", diferenca)

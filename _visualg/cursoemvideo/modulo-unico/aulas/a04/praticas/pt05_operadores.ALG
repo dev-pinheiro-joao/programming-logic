@@ -12,7 +12,7 @@ inicio
    b <- 3
    c <- 5
    
-   // Imprimir na tela o resultado lógico das comparações feitas com as variáveis A, B e C.
+   // Imprimir na tela o resultado lógico das comparações feitas abaixo.
    Escreval
    Escreval("|----------- COMPARAÇÕES -----------|")
    Escreval(" COMPARANDO-AS, O RESULTADO É:", NAO((a = b) OU (c > a)))

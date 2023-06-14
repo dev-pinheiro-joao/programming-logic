@@ -1,10 +1,10 @@
 algoritmo "melhorAluno"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
-// Descrição  : Imprimir quem é o melhor aluno da turma
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
+// Descrição  : Escrever quem é o melhor aluno da turma
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    aluno, melhorAluno: Caractere
    contador, quantidade: Inteiro
    nota, maiorNota: Real
@@ -33,8 +33,8 @@ inicio
       contador <- contador + 1
    FimEnquanto
    
-   // Imprimir na tela o aluno com o melhor aproveitamento, armazenado na variável MELHORALUNO.
+   // Imprimir na tela o nome e a nota do aluno com o melhor aproveitamento.
    Escreval("----------------")
-   Escreval("O melhor aproveitamento foi de ", melhorAluno, " com a nota ", maiorNota:3:2)
+   Escreval("O melhor aproveitamento foi de ", melhorAluno, " com a nota ", maiorNota:2:2)
    
 fimalgoritmo

@@ -1,27 +1,32 @@
 algoritmo "descontoProduto"
-// =====================================================================
-// ! Faça um programa que leia nome, sexo e o valor das compras do cli-
-// ente e calcule o preço com desconto. Sabendo que:
+// ----------------------------------------------------------------------
+// ! Faça um programa que leia nome, sexo e o valor das compras do clien-
+// te e calcule o preço com desconto. Sabendo que:
 //
-// * Homens ganham 5% de desconto
-// * Mulheres ganham 13% de desconto
+// + Homens ganham 5% de desconto
+// + Mulheres ganham 13% de desconto
 //
 // Autor: João Paulo Pinheiro do Nascimento
-//(PASSO02) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
-// =====================================================================
+// (PASSO02) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// ----------------------------------------------------------------------
 var
+   {Variáveis}
    nome, sexo: Caractere
    valor, desconto: Real
 inicio
+
+   // Pedir ao usuário para informar as informações abaixo.
    Escreval("======================================================")
    Escreval("          ALGORITMO CÁLCULO DESCONTO PRODUTO          ")
    Escreval("======================================================")
-   Escreva("Digite qual o seu nome: ")
+   Escreva("Informe qual o seu nome: ")
    Leia(nome)
-   Escreva("Digite qual o seu sexo (M/F): ")
+   Escreva("Informe qual o seu sexo (M/F): ")
    Leia(sexo)
-   Escreva("Digite o valor das suas compras: R$")
+   Escreva("Informe o valor das suas compras: R$")
    Leia(valor)
+
+   // Imprimir na tela o valor das compras com desconto.
    Escreval
    Escreval("+----------------------------------------------------+")
    Se (Maiusc(sexo) = "F") entao
@@ -32,4 +37,5 @@ inicio
       Escreval(" ", Maiusc(nome), " AS COMPRAS COM DESCONTO FICAM: R$", desconto:4:2)
    FimSe
    Escreval("+----------------------------------------------------+")
+
 fimalgoritmo

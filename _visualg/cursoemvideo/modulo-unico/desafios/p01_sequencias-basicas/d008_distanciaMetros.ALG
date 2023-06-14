@@ -10,11 +10,11 @@ var
    km, hm, dam, metro, dm, cm, mm: Real {Variáveis}
 inicio
 
-   // Pedir ao usuário para informar uma distância em metros.
+   // Pedir ao usuário para informar uma distância.
    Escreval("=======================================")
    Escreval("      ALGORITMO CÁLCULO DISTÂNCIA      ")
    Escreval("=======================================")
-   Escreva("Informe uma distância(M): ")
+   Escreva("Informe uma distância (M): ")
    Leia(metro)
 
    // Calcular as conversões métricas da distância informada.

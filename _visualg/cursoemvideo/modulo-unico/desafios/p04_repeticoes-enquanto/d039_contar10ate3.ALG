@@ -1,16 +1,16 @@
 algoritmo "contar10ate3"
-// =====================================================================
-// ! Faça um algoritmo que mostre na tela a seguinte contagem: 10 9 8 7
-// 6 5 4 3 Acabou!
+// ----------------------------------------------------------------------
+// ! Faça um algoritmo que mostre na tela a seguinte contagem: 10 9 8 7 6
+// 5 4 3 Acabou!
 //
 // Autor: João Paulo Pinheiro do Nascimento
-//(PASSO04) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
-// =====================================================================
+// (PASSO04) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// ----------------------------------------------------------------------
 var
-   contador: Inteiro {Declaração de Variáveis}
+   contador: Inteiro {Variáveis}
 inicio
 
-   // Interface que imprime a contagem de 10 até 3
+   // Imprimir na tela a contagem de dez até três.
    contador <- 10
    Escreval("|------------ CONTADOR ------------|")
    Escreva(" CONTAGEM: ")
@@ -19,5 +19,6 @@ inicio
       contador <- contador - 1
    FimEnquanto
    Escreval("ACABOU!")
+   Escreval("|----------------------------------|")
 
 fimalgoritmo

@@ -1,13 +1,13 @@
 algoritmo "contar0ate10"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Contar de 0 até 10
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   contador: Inteiro {Declaração de Variáveis}
+   contador: Inteiro {Variáveis}
 inicio
 
-   // Imprimir na tela a contagem de 0 até 10 atribuído na variável CONTADOR, gradualmente.
+   // Imprimir na tela a contagem de zero até dez.
    Escreval("|---------------- CONTADOR ----------------|")
    contador <- 0
    Enquanto (contador <= 10) faca

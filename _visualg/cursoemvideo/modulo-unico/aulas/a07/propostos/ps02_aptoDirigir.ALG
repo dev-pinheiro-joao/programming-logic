@@ -1,10 +1,10 @@
 algoritmo "aptoDirigir"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular a média entre dois números
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   ano, nasc, idade: Inteiro {Declaração de Variáveis}
+   ano, nasc, idade: Inteiro {Variáveis}
 inicio
 
    // Pedir ao usuário para informar o ano atual e o ano de nascimento.
@@ -16,10 +16,10 @@ inicio
    Escreva("Ano de nascimento (YYYY): ")
    Leia(nasc)
    
-   // Calcular a idade do usuário com os valores das variáveis ANO e NASC.
+   // Calcular a idade do usuário com os valores informados.
    idade <- ano - nasc
    
-   // Imprimir na tela a idade do usuário, armazenado na variável IDADE, e se o mesmo está apto ou não para tirar a CNH.
+   // Imprimir na tela a idade do usuário e se o mesmo está apto ou não para tirar a CNH.
    Escreval
    Escreval("----------- STATUS -----------")
    Escreval(" IDADE:", idade, " ANOS")

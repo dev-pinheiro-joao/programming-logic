@@ -1,10 +1,10 @@
 algoritmo "tabuada"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular a tabuada de um número
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   contador, numero, resultado: Inteiro {Declaração de Variáveis}
+   contador, numero, resultado: Inteiro {Variáveis}
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
@@ -15,7 +15,7 @@ inicio
    Escreva("Quer ver a tabuada de qual número? ")
    Leia(numero)
 
-   // Imprimir na tela a tabuada do número informado pelo usuário atribuída na variável RESULTADO, gradualmente.
+   // Imprimir na tela a tabuada do número informado pelo usuário.
    Escreval
    Escreval("+-----------------------------------+")
    Repita

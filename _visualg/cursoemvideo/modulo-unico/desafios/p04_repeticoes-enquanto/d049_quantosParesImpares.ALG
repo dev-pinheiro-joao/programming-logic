@@ -1,35 +1,35 @@
 algoritmo "quantosParesImpares"
-// =====================================================================
-// ! Crie um programa que leia 6 números inteiros e no final mostre
-// quantos deles são pares e quantos são ímpares.
+// ----------------------------------------------------------------------
+// ! Crie um programa que leia 6 números inteiros e no final mostre quan-
+// tos deles são pares e quantos são ímpares
 //
 // Autor: João Paulo Pinheiro do Nascimento
-//(PASSO04) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
-// =====================================================================
+// (PASSO04) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// ----------------------------------------------------------------------
 var
-   contador, numero, totPar, totImp: Inteiro {Declaração de Variáveis}
+   contador, numero, totPar, totImp: Inteiro {Variáveis}
 inicio
 
-   // Interface de interação que pede ao usuário para informar seis números.
-   Escreval("=====================================")
-   Escreval("  ALGORITMO QUANTOS PARES E ÍMPARES  ")
-   Escreval("=====================================")
-   enquanto (contador < 6) faca
-      escreva("Informe um número qualquer (INT): ")
-      leia(numero)
-      se (numero % 2 = 0) entao
+   // Pedir ao usuário para informar seis números inteiros
+   Escreval("===================================")
+   Escreval(" ALGORITMO QUANTOS PARES E ÍMPARES ")
+   Escreval("===================================")
+   Enquanto (contador < 6) faca
+      Escreva("Informe um número (INT): ")
+      Leia(numero)
+      Se (numero % 2 = 0) entao
          totPar <- totPar + 1
       senao
          totImp <- totImp + 1
-      fimse
+      FimSe
       contador <- contador + 1
-   fimenquanto
+   FimEnquanto
 
-   // Interface que imprime a quantidade de números pares e ímpares.
+   // Imprimir na tela a quantidade de números pares e ímpares.
    Escreval
-   Escreval("+-----------------------------------+")
+   Escreval("+---------------------------------+")
    Escreval(" O TOTAL DE NÚMEROS PARES É: ", totPar:1)
    Escreval(" O TOTAL DE NÚMEROS ÍMPARES É: ", totImp:1)
-   Escreval("+-----------------------------------+")
+   Escreval("+---------------------------------+")
 
 fimalgoritmo

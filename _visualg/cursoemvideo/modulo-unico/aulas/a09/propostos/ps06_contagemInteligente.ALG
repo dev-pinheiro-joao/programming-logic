@@ -1,10 +1,10 @@
 algoritmo "contagemInteligente"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Contar em ordem crescente e descrescente
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   comeco, fim, contador: Inteiro {Declaração de Variáveis}
+   comeco, fim, contador: Inteiro {Variáveis}
 inicio
 
    // Pedir ao usuário para informar dois números inteiros.
@@ -16,7 +16,7 @@ inicio
    Escreva("Fim: ")
    Leia(fim)
    
-   // Imprimir na tela a contagem em ordem crescente ou descrescente atribuída a variável CONTADOR, gradualmente.
+   // Imprimir na tela a contagem em ordem crescente ou decrescente.
    Escreval("--------------------")
    Escreval("  C O N T A N D O   ")
    Escreval("--------------------")

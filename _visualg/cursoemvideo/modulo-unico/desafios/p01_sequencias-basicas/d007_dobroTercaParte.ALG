@@ -1,4 +1,4 @@
-algoritmo "dobroTerçaParte"
+algoritmo "dobroTercaParte"
 // ----------------------------------------------------------------------
 // ! Crie um algoritmo que leia um número real e mostre na tela o seu do-
 // bro e a sua terça parte
@@ -10,11 +10,11 @@ var
    numero, dobro, terca: Real {Variáveis}
 inicio
 
-   // Pedir ao usuário para informar um número real.
+   // Pedir ao usuário para informar um número qualquer.
    Escreval("=================================")
    Escreval("   ALGORITMO DOBRO TERÇA PARTE   ")
    Escreval("=================================")
-   Escreva("Digite um número qualquer: ")
+   Escreva("Informe um número qualquer: ")
    Leia(numero)
 
    // Calcular o dobro e a terça parte do número informado.

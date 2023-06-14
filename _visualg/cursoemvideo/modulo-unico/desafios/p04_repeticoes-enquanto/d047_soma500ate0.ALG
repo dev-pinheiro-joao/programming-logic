@@ -1,20 +1,20 @@
 algoritmo "soma500ate0"
-// =====================================================================
-// ! Desenvolva um aplicativo que mostre na tela o resultado da expres-
-// são 500 + 450 + 400 + 350 + 300 + ... + 50 + 0.
+// ----------------------------------------------------------------------
+// ! Desenvolva um aplicativo que mostre na tela o resultado da expressão
+// 500 + 450 + 400 + 350 + 300 + ... + 50 + 0
 //
 // Autor: João Paulo Pinheiro do Nascimento
-//(PASSO04) Desafio do CursoEmVideo Resolvido - Prof°: Gustavo Guanabara
-// =====================================================================
+// (PASSO04) Desafio do CursoEmVídeo Resolvido - Prof°: Gustavo Guanabara
+// ----------------------------------------------------------------------
 var
-   contador, soma: Inteiro {Declaração de Variáveis}
+   contador, soma: Inteiro {Variáveis}
 inicio
 
-   // Interface que imprime os valores de 500 até 0 pulando de 50 em 50.
+   // Imprimir na tela os valores de quinhentos até zero pulando de cinquenta em cinquenta.
+   contador <- 500
    Escreval("==================================================================")
    Escreval("     ALGORITMO SOMA VALORES ENTRE 500 E 0 PULANDO DE 50 EM 50     ")
    Escreval("==================================================================")
-   contador <- 500
    Escreva(" VALORES: ")
    Enquanto (contador >= 0) faca
       Se (contador = 500) entao
@@ -26,7 +26,7 @@ inicio
       contador <- contador - 50
    FimEnquanto
 
-   // Interface que imprime a soma dos valores supracitados.
+   // Imprimir na tela a soma dos valores acima.
    Escreval
    Escreval
    Escreval("+----------------------------------------------------------------+")

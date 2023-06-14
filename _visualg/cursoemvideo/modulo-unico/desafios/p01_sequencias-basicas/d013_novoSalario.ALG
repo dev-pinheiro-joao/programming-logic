@@ -23,7 +23,7 @@ inicio
    // Imprimir na tela o novo salário do funcionário.
    Escreval
    Escreval("+--------------------------------------+")
-   Escreval(" O NOVO SALÁRIO COM DE +15% É: R$", novo_salario:4:2)
+   Escreval(" O NOVO SALÁRIO COM +15% É: R$", novo_salario:4:2)
    Escreval("+--------------------------------------+")
 
 fimalgoritmo

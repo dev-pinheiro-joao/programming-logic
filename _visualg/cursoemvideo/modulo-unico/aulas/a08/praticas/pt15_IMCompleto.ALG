@@ -1,10 +1,10 @@
 algoritmo "IMCompleto"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Calcular o Índice de Massa Corporal(IMC)
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   massa, altura, IMC: Real {Declaração de Variáveis}
+   massa, altura, IMC: Real {Variáveis}
 inicio
 
    // Pedir ao usuário para informar sua massa e sua altura.
@@ -16,13 +16,13 @@ inicio
    Escreva("Informe sua altura (M): ")
    Leia(altura)
    
-   // Calcular o IMC do usuário e atribuir na variável IMC.
+   // Calcular o IMC do usuário.
    IMC <- massa / (altura ^ 2)
    
-   // Imprimir na tela o IMC do usuário, armazenado na variável IMC, e sua classificação.
+   // Imprimir na tela o IMC do usuário e sua classificação de peso.
    Escreval
    Escreval("+--------------------------+")
-   Escreval(" SEU IMC É: ", IMC:5:2)
+   Escreval(" SEU IMC É: ", IMC:2:2)
    Se (IMC < 17) entao
       Escreval(" MUITO ABAIXO DO PESO")
    senao
