@@ -7,14 +7,22 @@ var
    contador: Inteiro
    soma, media, valor: Real
 inicio
+
    Enquanto (valor <> 999) faca
-      Escreva("Digite uma temperatura(C°): ")
+      LimpaTela
+      Escreval("=========================================")
+      Escreva("Informe uma temperatura(C°): ")
       Leia(valor)
       soma <- soma + valor
       contador <- contador + 1
    FimEnquanto
-   
-   // Calcular média
+
+   // Calcular média.
    media <- soma / contador
-   Escreval("A média dos valores digitados foi: ", media:4:2)
+
+   Escreval
+   Escreval("+------------------------------------------+")
+   Escreval(" A média dos valores digitados foi: ", media:4:2)
+   Escreval("+------------------------------------------+")
+
 fimalgoritmo

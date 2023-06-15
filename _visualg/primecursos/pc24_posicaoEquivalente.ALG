@@ -7,17 +7,23 @@ var
    vSoma: vetor[1..5] de Inteiro
    i: Inteiro
 inicio
+
    Para i de 1 ate 5 faca
-      Escreva("Digite o valor da ", i, "° posição do vetor[1]: ")
+      LimpaTela
+      Escreval("=============================================")
+      Escreva("Informe o valor da ", i:1, "° posição do vetor[1]: ")
       Leia(vVetor[i])
-      Escreva("Digite o valor da ", i, "° posição do vetor[2]: ")
+      Escreva("Informe o valor da ", i:1, "° posição do vetor[2]: ")
       Leia(vVetor2[i])
    FimPara
 
    // Calcular e mostrar a soma das posições equivalentes dos vetores
-   Escreval()
+   Escreval
+   Escreval("+-------------------------------------------+")
    Para i de 1 ate 5 faca
       vSoma[i] <- vVetor[i] + vVetor2[i]
-      Escreval("A soma dos vetores na posição {", i:1, "} é: ", vSoma[i]:1)
+      Escreval(" A soma dos vetores na posição {", i:1, "} é: ", vSoma[i]:1)
    FimPara
+   Escreval("+-------------------------------------------+")
+
 fimalgoritmo
