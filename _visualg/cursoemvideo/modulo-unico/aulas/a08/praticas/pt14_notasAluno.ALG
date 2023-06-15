@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar as duas notas do aluno.
-   Escreval("============================")
    Escreval("  ALGORITMO SITUAÇÃO ALUNO  ")
    Escreval("============================")
    Escreva("Primeira Nota: ")

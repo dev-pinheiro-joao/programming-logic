@@ -13,7 +13,6 @@ var
 inicio
 
    // Pedir ao usuário para informar três números inteiros.
-   Escreval("==================================")
    Escreval("   ALGORITMO SEGUNDO GRAU DELTA   ")
    Escreval("==================================")
    Escreva("Informe um valor para A(INT): ")

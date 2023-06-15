@@ -10,7 +10,6 @@ var
 inicio
 
    // Pedir ao usuário para informar 9 valores inteiros.
-   Escreval("============================================")
    Escreval("       ALGORITMO MATRIZ NÚMEROS PARES       ")
    Escreval("============================================")
    Para l de 1 ate 3 faca

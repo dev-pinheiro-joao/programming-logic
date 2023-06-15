@@ -23,7 +23,6 @@ FimFuncao
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
-   Escreval("============================")
    Escreval(" ALGORITMO ÍMPAR PAR FUNÇÃO ")
    Escreval("============================")
    Escreva("Informe um número(INT): ")

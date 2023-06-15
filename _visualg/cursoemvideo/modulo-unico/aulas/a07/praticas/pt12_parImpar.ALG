@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
-   Escreval("=============================")
    Escreval(" ALGORITMO CÁLCULO PAR ÍMPAR ")
    Escreval("=============================")
    Escreva("Informe um número(INT): ")

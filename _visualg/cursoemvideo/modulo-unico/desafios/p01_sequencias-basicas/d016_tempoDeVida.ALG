@@ -16,7 +16,6 @@ var
 inicio
 
    // Pedir ao usuário para informar as informações abaixo.
-   Escreval("=============================================")
    Escreval("           ALGORITMO TEMPO DE VIDA           ")
    Escreval("=============================================")
    Escreva("Quantos cigarros você fuma por dia? ")

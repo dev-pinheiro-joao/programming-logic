@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar quantos reais a Creuza possui no momento.
-   Escreval("===============================")
    Escreval("  ALGORITMO CONVERSÃO DÓLARES  ")
    Escreval("===============================")
    Escreva("Quantos reais eu tenho? R$")

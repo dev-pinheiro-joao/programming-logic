@@ -20,7 +20,6 @@ inicio
 
    // Pedir ao usuário para informa o sexo e o peso de uma pessoa.
    Para contador de 1 ate 8 faca
-      Escreval("===============================================")
       Escreval("    ALGORITMO CADASTRO PESO HOMENS/MULHERES    ")
       Escreval("===============================================")
       Escreva("Informe o sexo da ", contador:1, "° pessoa (M/F): ")

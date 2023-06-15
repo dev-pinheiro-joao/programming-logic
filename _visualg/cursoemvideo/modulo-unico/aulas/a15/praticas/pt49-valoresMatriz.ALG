@@ -17,7 +17,6 @@ inicio
    // Pedir ao usuário para informar 16 números inteiros.
    diagonal <- 0
    linha <- 1
-   Escreval("===============================================")
    Escreval("       ALGORITMO VALORES MATRIZ 4° ORDEM       ")
    Escreval("===============================================")
    Para l de 1 ate 4 faca

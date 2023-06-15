@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
-   Escreval("===============================")
    Escreval(" ALGORITMO ANTECESSOR SUCESSOR ")
    Escreval("===============================")
    Escreva("Informe um número (INT): ")

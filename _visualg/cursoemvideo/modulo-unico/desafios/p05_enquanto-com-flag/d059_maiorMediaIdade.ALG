@@ -20,7 +20,6 @@ inicio
 
    // Pedir ao usuário para informar o sexo e idade de uma pessoa.
    Repita
-      Escreval("============================================")
       Escreval("     ALGORITMO INFORMAÇÕES IDADES LIDAS     ")
       Escreval("============================================")
       Escreva("Informe o sexo (M/F): ")

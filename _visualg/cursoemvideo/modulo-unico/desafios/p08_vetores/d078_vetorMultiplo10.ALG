@@ -14,7 +14,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
-   Escreval("============================================================")
    Escreval("        ALGORITMO INFORME OS VALORES MÚLTIPLOS DE 10        ")
    Escreval("============================================================")
    Escreval

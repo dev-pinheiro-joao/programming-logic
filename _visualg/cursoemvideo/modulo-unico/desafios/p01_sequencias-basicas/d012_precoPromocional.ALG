@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o valor de um produto (em R$).
-   Escreval("=========================================")
    Escreval("       ALGORITMO PREÇO PROMOCIONAL       ")
    Escreval("=========================================")
    Escreva("Informe o valor do produto: R$")

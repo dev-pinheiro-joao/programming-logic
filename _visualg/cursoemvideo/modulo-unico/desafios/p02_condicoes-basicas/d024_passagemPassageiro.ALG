@@ -12,7 +12,6 @@ var
 inicio
 
    // Pedir ao usuário para informar uma distância.
-   Escreval("=========================================")
    Escreval("  ALGORITMO CÁLCULO PASSAGEM PASSAGEIRO  ")
    Escreval("=========================================")
    Escreva("Informe a distância (KM): ")

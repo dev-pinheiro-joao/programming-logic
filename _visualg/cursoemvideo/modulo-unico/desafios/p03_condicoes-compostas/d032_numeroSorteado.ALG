@@ -16,7 +16,6 @@ inicio
    numRandom <- Rand * 5 + 1
 
    // Pedir ao usuário para informar um número entre 1 e 5.
-   Escreval("========================================")
    Escreval("     ALGORITMO JOGO NÚMERO SORTEADO     ")
    Escreval("========================================")
    Escreva("Informe um número entre 1 e 5: ")

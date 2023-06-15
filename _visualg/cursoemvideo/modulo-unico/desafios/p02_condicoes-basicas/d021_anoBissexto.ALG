@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um ano para ser analisado.
-   Escreval("============================")
    Escreval("   ALGORITMO ANO BISSEXTO   ")
    Escreval("============================")
    Escreva("Informe um ano: ")

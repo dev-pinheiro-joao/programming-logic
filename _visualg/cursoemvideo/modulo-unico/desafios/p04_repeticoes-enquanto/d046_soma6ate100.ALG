@@ -12,7 +12,6 @@ inicio
 
    // Imprimir na tela a sequência de seis até cem pulando de dois em dois.
    contador <- 6
-   Escreval("=================================================================")
    Escreval("  ALGORITMO SOMADOR DE 6 ATÉ 100 COM INCREMENTO DE DOIS EM DOIS  ")
    Escreval("=================================================================")
    Escreva(" VALORES: ")

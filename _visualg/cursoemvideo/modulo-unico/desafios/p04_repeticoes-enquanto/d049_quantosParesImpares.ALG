@@ -10,8 +10,7 @@ var
    contador, numero, totPar, totImp: Inteiro {Variáveis}
 inicio
 
-   // Pedir ao usuário para informar seis números inteiros
-   Escreval("===================================")
+   // Pedir ao usuário para informar seis números inteiros.
    Escreval(" ALGORITMO QUANTOS PARES E ÍMPARES ")
    Escreval("===================================")
    Enquanto (contador < 6) faca

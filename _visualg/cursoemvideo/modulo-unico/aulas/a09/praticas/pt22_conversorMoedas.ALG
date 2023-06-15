@@ -10,8 +10,7 @@ var
 inicio
 
    // Pedir ao usuário para informar quantas vezes ele quer usar o conversor.
-   contador <- 1
-   Escreval("====================================")
+   contador <- 1)
    Escreval("    ALGORITMO CONVERSOR MOEDAS X    ")
    Escreval("====================================")
    Escreva("Quantas vezes você quer converter? ")

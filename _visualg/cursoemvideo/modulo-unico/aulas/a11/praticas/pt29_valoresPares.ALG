@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
-   Escreval("==================================")
    Escreval("     ALGORTIMO CONTAGEM PARES     ")
    Escreval("==================================")
    Escreva("Informe um valor(INT): ")

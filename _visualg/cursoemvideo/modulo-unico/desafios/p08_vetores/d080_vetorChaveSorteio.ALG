@@ -16,7 +16,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro entre 1 e 15.
-   Escreval("========================================================")
    Escreval("     ALGORITMO VETOR NÚMERO CHAVE SORTEADO POSIÇÕES     ")
    Escreval("========================================================")
    Escreval

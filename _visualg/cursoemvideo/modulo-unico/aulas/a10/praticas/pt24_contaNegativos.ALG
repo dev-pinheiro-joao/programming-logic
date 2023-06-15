@@ -9,8 +9,6 @@ inicio
 
    // Pedir ao usuário para informar um número inteiro.
    contador <- 1
-   totalNegativos <- 0
-   Escreval("========================================")
    Escreval("   ALGORITMO CONTAR NÚMEROS NEGATIVOS   ")
    Escreval("========================================")
    Repita

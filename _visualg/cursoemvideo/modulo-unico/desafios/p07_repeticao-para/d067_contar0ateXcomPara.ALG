@@ -12,14 +12,13 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro positivo.
+   Escreval("        ALGORTITMO CONTAGEM DE 0 ATÉ X        ")
+   Escreval("==============================================")
    Escreva("Até qual número gostaria de contar(INT/+): ")
    Leia(numero)
 
    // Imprimir na tela a contagem de zero até o número informado.
    Escreval
-   Escreval("==============================================")
-   Escreval("        ALGORTITMO CONTAGEM DE 0 ATÉ X        ")
-   Escreval("==============================================")
    Escreval("+--------------------------------------------+")
    Escreva(" CONTAGEM: ")
    Para contador de 0 ate numero faca

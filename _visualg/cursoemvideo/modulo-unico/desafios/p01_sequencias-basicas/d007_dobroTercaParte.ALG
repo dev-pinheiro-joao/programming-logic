@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número qualquer.
-   Escreval("=================================")
    Escreval("   ALGORITMO DOBRO TERÇA PARTE   ")
    Escreval("=================================")
    Escreva("Informe um número qualquer: ")

@@ -10,7 +10,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro 7 vezes.
-   Escreval("=================================")
    Escreval("     ALGORITMO VALORES PARES     ")
    Escreval("=================================")
    Para i de 1 ate 7 faca

@@ -15,7 +15,6 @@ var
 inicio
 
    // Pedir ao usuário para informar as informações abaixo.
-   Escreval("===============================================")
    Escreval("            ALGORITMO ALUGUEL CARRO            ")
    Escreval("===============================================")
    Escreva("Quantos dias o veículo foi alugado? ")

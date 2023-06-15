@@ -12,7 +12,6 @@ inicio
    // Pedir ao usuário para informar um número inteiro para calcular seu fatorial.
    Repita
       LimpaTela
-      Escreval("=========================================")
       Escreval("       ALGORITMO CÁLCULO FATORIAL        ")
       Escreval("=========================================")
       Escreva("Informe um número(INT): ")

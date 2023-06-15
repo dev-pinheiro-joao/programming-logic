@@ -24,7 +24,6 @@ FimProcedimento
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
-   Escreval("============================")
    Escreval(" ALGORITMO NUMERO PAR ÍMPAR ")
    Escreval("============================")
    Escreva("Informe um número(INT): ")

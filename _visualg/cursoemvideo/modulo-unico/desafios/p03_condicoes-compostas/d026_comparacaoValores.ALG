@@ -15,7 +15,6 @@ var
 inicio
 
    // Pedir ao usuário para informar dois números inteiros.
-   Escreval("================================")
    Escreval("  ALGORITMO COMPARAÇÃO VALORES  ")
    Escreval("================================")
    Escreva("Informe um número(INT): ")

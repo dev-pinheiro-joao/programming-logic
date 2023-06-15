@@ -10,7 +10,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro 10 vezes.
-   Escreval("====================================")
    Escreval("       ALGORITMO ORDENA VALOR       ")
    Escreval("====================================")
    Para i de 1 ate 10 faca

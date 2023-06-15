@@ -14,7 +14,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
-   Escreval("===============================================")
    Escreval(" ALGORITMO VETOR VALORES PARES E SUAS POSIÇÕES ")
    Escreval("===============================================")
    Para contador de 0 ate 9 faca

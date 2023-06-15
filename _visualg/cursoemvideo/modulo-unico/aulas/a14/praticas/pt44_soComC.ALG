@@ -12,7 +12,6 @@ inicio
 
    // Pedir ao usuário para informar um nome 10 vezes.
    totalC <- 0
-   Escreval("====================")
    Escreval(" ALGORITMO LISTAGEM ")
    Escreval("====================")
    Para contador de 1 ate 10 faca

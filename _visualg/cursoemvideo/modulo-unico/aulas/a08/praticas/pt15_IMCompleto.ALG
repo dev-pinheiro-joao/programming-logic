@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar sua massa e sua altura.
-   Escreval("============================")
    Escreval("   ALGORITMO CÁLCULO IMC    ")
    Escreval("============================")
    Escreva("Informe sua massa (KG): ")

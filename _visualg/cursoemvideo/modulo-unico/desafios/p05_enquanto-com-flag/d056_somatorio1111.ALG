@@ -12,7 +12,6 @@ var
 inicio
 
    // Pedir ao usuário para informar vários números inteiros de até 4 dígitos.
-   Escreval("=========================================")
    Escreval("   ALGORITMO SOMATÓRIO 1111 INTERROMPE   ")
    Escreval("=========================================")
    Repita

@@ -10,7 +10,6 @@ var
 inicio
 
    // Pedir ao usuário para informar 6 valores inteiros.
-   Escreval("======================================")
    Escreval("      ALGORITMO PREENCHER MATRIZ      ")
    Escreval("======================================")
    Para l de 1 ate 3 faca

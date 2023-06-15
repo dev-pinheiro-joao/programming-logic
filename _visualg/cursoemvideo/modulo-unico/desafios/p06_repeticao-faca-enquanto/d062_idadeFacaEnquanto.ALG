@@ -21,7 +21,6 @@ inicio
 
    // Pedir ao usuário para informar uma idade.
    Enquanto (Maiusc(resp) <> "N") faca
-      Escreval("==================================================")
       Escreval("     ALGORITMO INFORMAÇÃO IDADE FAÇA ENQUANTO     ")
       Escreval("==================================================")
       Escreva("Informe uma idade: ")

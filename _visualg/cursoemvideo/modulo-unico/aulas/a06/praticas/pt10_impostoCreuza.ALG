@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o valor de um produto (em US$).
-   EscrevaL("=====================================")
    Escreval("      ALGORITMO CÁLCULO IMPOSTO      ")
    Escreval("=====================================")
    Escreva("Informe o valor do produto: US$ ")

@@ -14,11 +14,10 @@ var
 inicio
 
    // Pedir ao usuário para informar o nome de uma pessoa.
-   Escreval("================================")
    Escreval("   ALGORITMO LISTAGEM INVERSA   ")
    Escreval("================================")
    Para c1 de 0 ate 6 faca
-      Escreva("Digite o ", c1:1,"° nome: ")
+      Escreva("Informe o ", c1:1,"° nome: ")
       leia(nome[c1])
    FimPara
 

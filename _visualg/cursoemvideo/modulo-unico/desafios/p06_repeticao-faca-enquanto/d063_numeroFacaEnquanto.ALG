@@ -21,7 +21,6 @@ inicio
 
    // Pedir ao usuário para informar um número inteiro.
    Enquanto (Maiusc(resp) <> "N") faca
-      Escreval("==================================")
       Escreval("  ALGORITMO NÚMERO FACA ENQUANTO  ")
       Escreval("==================================")
       Escreva("Informe um número(INT): ")

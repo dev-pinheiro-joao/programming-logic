@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar uma distância.
-   Escreval("=======================================")
    Escreval("      ALGORITMO CÁLCULO DISTÂNCIA      ")
    Escreval("=======================================")
    Escreva("Informe uma distância (M): ")

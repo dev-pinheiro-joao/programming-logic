@@ -25,7 +25,6 @@ var
 inicio
 
    // Pedir ao usuário para informar as informações abaixo.
-   Escreval("=====================================================")
    Escreval("    ALGORITMO NOVO SALÁRIO FUNCIONÁRIO POR GÊNERO    ")
    Escreval("=====================================================")
    Escreva("Informe o gênero do funcionário (M/F): ")

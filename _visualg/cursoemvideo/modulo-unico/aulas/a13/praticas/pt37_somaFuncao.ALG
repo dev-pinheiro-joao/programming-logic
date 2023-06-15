@@ -17,7 +17,6 @@ FimFuncao
 inicio
 
    // Pedir para o usuário informar dois valores inteiros.
-   Escreval("===============================")
    Escreval("     ALGORTIMO SOMA FUNÇÃO     ")
    Escreval("===============================")
    Escreva("Informe o primeiro valor(INT): ")

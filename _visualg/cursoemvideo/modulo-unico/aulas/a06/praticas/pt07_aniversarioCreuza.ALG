@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o ano atual e o ano de nascimento.
-   Escreval("=========================")
    Escreval("  ALGORITMO ANIVERSÁRIO  ")
    Escreval("=========================")
    Escreva("Ano em que estamos: ")

@@ -23,7 +23,6 @@ var
 inicio
 
    // Pedir ao usuário informar as informações abaixo.
-   Escreval("=======================================================")
    Escreval("  ALGORITMO CÁLCULO VALOR TOTAL DO ALUGUEL A SER PAGO  ")
    Escreval("=======================================================")
    Escreva("Informe por quantos dias o veículo foi alugado: ")

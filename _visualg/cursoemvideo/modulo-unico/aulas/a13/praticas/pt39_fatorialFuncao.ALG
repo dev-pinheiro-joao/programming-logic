@@ -25,7 +25,6 @@ FimFuncao
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
-   Escreval("=============================")
    Escreval("  ALGORITMO FATORIAL FUNÇÃO  ")
    Escreval("=============================")
    Escreva("Informe um número(INT): ")

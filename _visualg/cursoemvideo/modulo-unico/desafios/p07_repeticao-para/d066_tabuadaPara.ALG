@@ -12,7 +12,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro.
-   Escreval("====================================")
    Escreval("  ALGORITMO TABUADA ESTRUTURA PARA  ")
    Escreval("====================================")
    Escreva("Informe um número para a tabuada: ")

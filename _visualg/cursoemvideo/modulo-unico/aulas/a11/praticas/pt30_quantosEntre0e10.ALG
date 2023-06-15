@@ -9,8 +9,6 @@ inicio
 
    // Pedir ao usuário para informar um número inteiro.
    totalEntre10 <- 0
-   soma <- 0
-   Escreval("==========================================")
    Escreval("      ALGORITMO QUANTOS ENTRE 0 E 10      ")
    Escreval("==========================================")
    Para contador de 1 ate 6 faca

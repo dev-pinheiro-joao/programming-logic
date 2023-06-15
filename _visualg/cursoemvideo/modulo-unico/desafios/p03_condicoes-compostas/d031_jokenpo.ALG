@@ -10,7 +10,6 @@ var
 inicio
 
    // Pedir ao usuário para informar a jogada feita pelos dois jogadores.
-   Escreval("============================================================")
    Escreval("            ALGORITMO JOGO PEDRA PAPEL E TESOURA            ")
    Escreval("============================================================")
    Escreva("Informe a jogada do Jogador 1(Pedra/Tesoura/Papel): ")

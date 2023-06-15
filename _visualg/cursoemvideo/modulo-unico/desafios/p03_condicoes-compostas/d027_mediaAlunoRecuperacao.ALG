@@ -15,7 +15,6 @@ var
 inicio
 
    // Pedir ao usuário para informar duas notas de um aluno.
-   Escreval("==============================")
    Escreval(" ALGORITMO MÉDIA ALUNO A/R/ER ")
    Escreval("==============================")
    Escreva("Informe a 1° nota do aluno: ")

@@ -16,7 +16,6 @@ inicio
 
    // Pedir ao usuário para informar o sexo e o salário de um funcionário.
    Repita
-      Escreval("======================================================")
       Escreval("       ALGORITMO TOTAL A PAGO HOMENS E MULHERES       ")
       Escreval("======================================================")
       Escreva("Informe o sexo do funcionário (M/F): ")

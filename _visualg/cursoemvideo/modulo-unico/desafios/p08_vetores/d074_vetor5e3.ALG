@@ -18,11 +18,11 @@ inicio
    Escreval("|---------------------- VETOR ---------------------|")
    Escreva(" VALORES -> ")
    Para contador de 0 ate 9 faca
-      se (contador % 2 = 0) entao
+      Se (contador % 2 = 0) entao
          vet[contador] <- 5
       senao
          vet[contador] <- 3
-      fimse
+      FimSe
       Escreva(vet[contador], "  ")
    FimPara
    Escreval

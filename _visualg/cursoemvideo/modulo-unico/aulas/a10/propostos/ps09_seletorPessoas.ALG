@@ -16,7 +16,6 @@ inicio
    // Pedir ao usuário para informar o sexo, a idade e a cor de cabelo de uma pessoa.
    Repita
       LimpaTela
-      Escreval("==========================")
       Escreval("    SELETOR DE PESSOAS    ")
       Escreval("==========================")
       Escreva("Qual o sexo [M/F]?  ")

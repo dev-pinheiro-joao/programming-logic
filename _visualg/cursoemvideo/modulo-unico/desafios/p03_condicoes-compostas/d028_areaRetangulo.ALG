@@ -17,7 +17,6 @@ var
 inicio
 
    // Pedir ao usuário para informar a largura e o comprimento de um terreno.
-   Escreval("=======================================")
    Escreval("   ALGORITMO CÁLCULO ÁREA RETANGULAR   ")
    Escreval("=======================================")
    Escreva("Informe qual a largura (M): ")

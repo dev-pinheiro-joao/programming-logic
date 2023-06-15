@@ -78,7 +78,6 @@ FimProcedimento
 inicio
 
    // Pedir ao usuário para informar 16 valores inteiros.
-   Escreval("===========================================")
    Escreval("       ALGORITMO DISSECANDO MATRIZES       ")
    Escreval("===========================================")
    Para l de 1 ate 4 faca

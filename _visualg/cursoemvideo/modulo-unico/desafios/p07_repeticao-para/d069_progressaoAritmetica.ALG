@@ -12,7 +12,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o primeiro termo de uma P.A. e sua razão (q).
-   Escreval("===================================")
    Escreval("  ALGORITMO PROGRESSÃO ARITMÉTICA  ")
    Escreval("===================================")
    Escreva("Informe o primeiro termo da PA: ")
