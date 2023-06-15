@@ -1,15 +1,15 @@
 algoritmo "valoresMatriz"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Escrever na tela:
 //
-// * A soma dos valores da diagonal principal
-// * O produto dos valores da segunda linha
-// * O maior valor da terceira coluna
+// + A soma dos valores da diagonal principal
+// + O produto dos valores da segunda linha
+// + O maior valor da terceira coluna
 //
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    m: vetor[1..4, 1..4] de Inteiro
    l, c, diagonal, linha, coluna: Inteiro
 inicio
@@ -17,7 +17,6 @@ inicio
    // Pedir ao usuário para informar 16 números inteiros.
    diagonal <- 0
    linha <- 1
-   Escreval("===============================================")
    Escreval("       ALGORITMO VALORES MATRIZ 4° ORDEM       ")
    Escreval("===============================================")
    Para l de 1 ate 4 faca
@@ -30,7 +29,7 @@ inicio
       FimPara
    FimPara
    
-   // Imprimir na tela uma matriz (visualmente) armazenada no vetor M.
+   // Imprimir na tela uma matriz 4x4 (visualmente).
    Escreval
    Escreval("MATRIZ")
    Escreval("-----------------")
@@ -49,7 +48,7 @@ inicio
       FimSe
    FimPara
    
-   // Imprimir na tela a soma da diagonal principal, o produto da segunda linha e o maior valor da terceira linha, armazenada nas variáveis DIAGONAL, LINHA e COLUNA.
+   // Imprimir na tela as informações abaixo.
    Escreval
    Escreval("+----------------------------------------------+")
    Escreval(" SOMA DOS VALORES DA DIAGONAL PRINCIPAL É: ", diagonal)

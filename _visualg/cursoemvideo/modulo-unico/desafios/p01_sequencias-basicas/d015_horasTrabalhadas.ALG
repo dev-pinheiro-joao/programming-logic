@@ -14,7 +14,6 @@ var
 inicio
 
    // Pedir ao usuário para informar quantos dias um funcionário trabalhou no mês.
-   Escreval("===============================================")
    Escreval("    ALGORTIMO HORAS TRABALHADAS FUNCIONÁRIO    ")
    Escreval("===============================================")
    Escreva("Quantos dias o funcionário trabalhou no mês? ")

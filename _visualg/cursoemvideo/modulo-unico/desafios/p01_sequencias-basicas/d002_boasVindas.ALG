@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar seu nome.
-   Escreval("==========================================")
    Escreval("          ALGORITMO BOAS VINDAS           ")
    Escreval("==========================================")
    Escreva("Informe qual o seu nome: ")

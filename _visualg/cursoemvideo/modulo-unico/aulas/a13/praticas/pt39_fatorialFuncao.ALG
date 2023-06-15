@@ -1,39 +1,39 @@
 algoritmo "fatorialFuncao"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
-// Descrição  : Calcular o fatorial de um número com função
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
+// Descrição  : Calcular o fatorial de um número
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   numero, retorno: Inteiro {Declaração de Variáveis}
+   numero, retorno: Real {Variáveis}
 
 Funcao Fatorial (V: Inteiro): Inteiro
 // Função: Retornar o fatorial de um número
 var
-   C, R: Inteiro {Declaração de Variáveis (Função)}
+   C, R: Inteiro {Variáveis (Função)}
 inicio
 
-   // Calcular o fatorial de um número e atribuir na variável R.
+   // Calcular o fatorial de um número.
    R <- 1
-   Para C <- 1 ate V faca
+   Para C de 1 ate V faca
       R <- R * C
    FimPara
+   
+   // Retornar o valor do cálculo do fatorial.
    Retorne R
-
 FimFuncao
 
 inicio
 
-   // Pedir ao usuário para informar um número.
-   Escreval("=============================")
+   // Pedir ao usuário para informar um número inteiro.
    Escreval("  ALGORITMO FATORIAL FUNÇÃO  ")
    Escreval("=============================")
    Escreva("Informe um número(INT): ")
    Leia(numero)
    
-   // Chamar a Função Fatorial(), passar a variável NUMERO como parâmetro e atribuir na variável RETORNO.
+   // Chamar a Função Fatorial() e passar a variável NUMERO como parâmetro.
    retorno <- Fatorial(numero)
    
-   // Imprimir na tela o fatorial do número informado pelo usuário, armazenado na variável RETORNO.
+   // Imprimir na tela o fatorial do número informado pelo usuário.
    Escreval
    Escreval("+---------------------------+")
    Escreval(" O VALOR DE ", numero, "! É: ", retorno)

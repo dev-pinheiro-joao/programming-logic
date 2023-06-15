@@ -1,10 +1,10 @@
 algoritmo "corrigeProvas"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Corrigir uma prova, a partir de um gabarito
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    gabarito: vetor[1..5] de Caractere
    prova: vetor[1..5] de Caractere
    nome: vetor[1..3] de Caractere
@@ -15,7 +15,7 @@ var
 Procedimento CadastroGabarito()
 // Função: Definir o gabarito de questões
 var
-   c: Inteiro {Declaração de Variáveis (Procedimento)}
+   c: Inteiro {Variáveis (Procedimento)}
 inicio
 
    // Pedir ao usuário para informar qual o gabarito das 5 questões.
@@ -25,31 +25,31 @@ inicio
       Escreva("Questão ", c, ": ")
       Leia(gabarito[c])
    FimPara
-
 FimProcedimento
 
 Funcao CadastraProva(): Real
 // Função: Retornar a nota final dos alunos
 var
-   {Declaração de Variáveis (Função)}
+   {Variáveis (Função)}
    c: Inteiro
    notaFinal: Real
 inicio
 
-   // Pedir ao usuário para informar quais foram as respostas dos alunos.
+   // Pedir ao usuário para informar quais foram as respostas pelos alunos.
    notaFinal <- 0
    Escreval("RESPOSTAS DADAS")
    Para c de 1 ate 5 faca
       Escreva("Questão ", c, ": ")
       Leia(prova[c])
       
-      // Calcular a nota final do aluno, sabendo que cada questão certa são dois pontos.
+      // Calcular a nota final do aluno, sabendo que cada questão certa valem dois pontos.
       Se (Maiusc(prova[c]) = Maiusc(gabarito[c])) entao
          notaFinal <- notaFinal + 2
       FimSe
    FimPara
+   
+   // Retornar a nota final do aluno.
    Retorne notaFinal
-
 fimfuncao
 
 inicio
@@ -57,7 +57,7 @@ inicio
    // Chamar o Procedimento CadastroGabarito().
    CadastroGabarito()
    
-   // Pedir para o usuário para informar o nome de um aluno.
+   // Pedir ao usuário para informar o nome de um aluno.
    Para contador de 1 ate 3 faca
       LimpaTela
       Escreval("------------------------")
@@ -66,26 +66,26 @@ inicio
       Escreva("Nome: ")
       Leia(nome[contador])
       
-      // Chamar a Função CadastraProva() e atribuir o valor no vetor NOTA.
+      // Chamar a Função CadastraProva().
       nota[contador] <- CadastraProva()
       
-      // Calcular a soma das notas para descobrir a média da turma.
+      // Calcular a soma das notas para descobrir a média geral da turma.
       soma <- soma + nota[contador]
    FimPara
    
-   // Imprimir na tela
+   // Imprimir na tela as notas finais dos alunos.
    LimpaTela
    Escreval("NOTAS FINAIS ")
    Escreval("-----------------------------")
    Para contador de 1 ate 3 faca
-      Escreval(nome[contador]:10, nota[contador]:4:1)
+      Escreval(nome[contador]:10, nota[contador]:4:2)
    Fimpara
    
-   // Calcular a média da turma em geral e atribuir na variável MEDIA.
+   // Calcular a média da turma em geral.
    media <- soma / 3
    
-   // Imprimir na tela a média da turma armazenada na variável MEDIA.
+   // Imprimir na tela a média da turma.
    Escreval("-----------------------------")
-   Escreval("Média da Turma: ", media:4:1)
+   Escreval("Média da Turma: ", media:4:2)
    
 fimalgoritmo

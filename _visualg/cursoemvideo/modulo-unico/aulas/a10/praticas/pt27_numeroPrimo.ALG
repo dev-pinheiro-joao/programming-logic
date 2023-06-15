@@ -10,7 +10,6 @@ inicio
    // Pedir ao usuário para informar um número inteiro.
    contador <- 1
    divisores <- 0
-   Escreval("===========================")
    Escreval("  ALGORITMO NÚMERO PRIMOS  ")
    Escreval("===========================")
    Escreva("Informe um número(INT): ")

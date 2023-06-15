@@ -22,7 +22,6 @@ inicio
 
    // Pedir ao usuário para informar o nome, sexo e idade de um pessoa.
    Repita
-      Escreval("==================================================")
       Escreval("       ALGORITMO QUANTAS PESSOAS POR GÊNERO       ")
       Escreval("==================================================")
       Escreva("Por favor, informe um nome: ")

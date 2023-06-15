@@ -17,8 +17,7 @@ var
    mediaA, peso, alt: Real
 inicio
 
-   // Pedir ao usuário para informar
-   Escreval("===================================================")
+   // Pedir ao usuário para informar o peso e a altura de sete pessoas.
    Escreval("      ALGORITMO PESO E ALTURA DE SETE PESSOAS      ")
    Escreval("===================================================")
    Enquanto (contador < 7) faca

@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar dois números inteiros.
-   Escreval("=============================")
    Escreval("     ALGORTIMO SOMATÓRIO     ")
    Escreval("=============================")
    Escreva("Informe um número(INT): ")

@@ -13,7 +13,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o valor de oito produtos (em R$).
-   Escreval("===============================================")
    Escreval(" ALGORITMO PRODUTO MENOR/MAIOR CUSTO BENEFÍCIO ")
    Escreval("===============================================")
    Enquanto (contador < 8) faca

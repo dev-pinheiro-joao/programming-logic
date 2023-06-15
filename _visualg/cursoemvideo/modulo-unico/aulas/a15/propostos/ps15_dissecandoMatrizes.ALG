@@ -1,55 +1,53 @@
 algoritmo "dissecandoMatrizes"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Escrever na tela:
 //
-// * Os elementos da diagonal principal
-// * Os elementos do triângulo superior
-// * Os elementos do triângulo inferior
+// + Os elementos da diagonal principal
+// + Os elementos do triângulo superior
+// + Os elementos do triângulo inferior
 //
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    m: vetor[1..4, 1..4] de Inteiro
    l, c, op: Inteiro
 
 Procedimento MostraMatriz()
-// Função: Mostrar uma matriz 4x4
+// Função: Imprimir na tela uma matriz 4x4
 inicio
 
-   // Imprimir na tela a matriz 4x4 (visualmente) armazenada no vetor M.
+   // Imprimir na tela a matriz 4x4 (visualmente).
    Para l de 1 ate 4 faca
       Para c de 1 ate 4 faca
          Escreva(m[l,c]:4)
       FimPara
       Escreval
    FimPara
-
 FimProcedimento
 
 Procedimento DiagonalPrincipal()
-// Função: Mostrar a diagonal principal de uma matriz 4x4
+// Função: Imprimir na tela a diagonal principal de uma matriz 4x4
 var
-   t: Inteiro {Declaração de Variáveis (Procedimento)}
+   t: Inteiro {Variáveis (Procedimento)}
 inicio
 
-   // Imprimir na tela a diagonal principal de uma matriz 4x4 (visualmente) armazenada no vetor M.
+   // Imprimir na tela a diagonal principal de uma matriz 4x4 (visualmente).
    Para l de 1 ate 4 faca
       Escreval(m[l,l]:4)
       Para t de 1 ate l faca
          Escreva("    ")
       FimPara
    FimPara
-
 FimProcedimento
 
 Procedimento TrianguloSuperior()
-// Função: Mostrar o triangulo superior de uma matriz 4x4
+// Função: Imprimir na tela o triangulo superior de uma matriz 4x4
 var
-   t: Inteiro {Declaração de Variáveis (Procedimento)}
+   t: Inteiro {Variáveis (Procedimento)}
 inicio
 
-   // Imprimir na tela o triangulo superior de uma matriz 4x4 (visualmente) armazenada no vetor M.
+   // Imprimir na tela o triangulo superior de uma matriz 4x4 (visualmente).
    Para l de 1 ate 3 faca
       Escreva("    ")
       Para c de l+1 ate 4 faca
@@ -61,14 +59,13 @@ inicio
       FimPara
    FimPara
    Escreval
-
 FimProcedimento
 
 Procedimento TrianguloInferior()
-// Função: Mostrar o triangulo inferior de uma matriz 4x4
+// Função: Imprimir na tela o triangulo inferior de uma matriz 4x4
 inicio
 
-   // Imprimir na tela o triangulo inferior de uma matriz 4x4 (visualmente) armazenada no vetor M.
+   // Imprimir na tela o triangulo inferior de uma matriz 4x4 (visualmente).
    Para l de 2 ate 4 faca
       Escreval
       Para c de 1 ate l-1 faca
@@ -76,13 +73,11 @@ inicio
       FimPara
    FimPara
    Escreval
-   
 FimProcedimento
 
 inicio
 
    // Pedir ao usuário para informar 16 valores inteiros.
-   Escreval("===========================================")
    Escreval("       ALGORITMO DISSECANDO MATRIZES       ")
    Escreval("===========================================")
    Para l de 1 ate 4 faca
@@ -106,7 +101,7 @@ inicio
       Repita
          Escreva("===== OPÇÃO: ")
          Leia(op)
-      Ate (op >=1) e (op <=5)
+      Ate ((op >= 1) E (op <= 5))
 
       // Definir qual procedimento será chamado.
       LimpaTela

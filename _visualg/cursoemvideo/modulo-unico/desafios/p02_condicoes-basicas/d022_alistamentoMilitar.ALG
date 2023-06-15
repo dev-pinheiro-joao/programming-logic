@@ -17,7 +17,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o ano de nascimento e o ano atual.
-   Escreval("============================================")
    Escreval("        ALGORITMO ALISTAMENTO MILITAR       ")
    Escreval("============================================")
    Escreva("Informe em que ano você nasceu (YYYY): ")

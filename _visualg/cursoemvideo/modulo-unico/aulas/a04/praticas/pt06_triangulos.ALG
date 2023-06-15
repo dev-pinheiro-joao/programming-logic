@@ -10,7 +10,6 @@ var
 inicio
 
    // Pedir ao usuário para informar três lados de um triângulo.
-   Escreval("====================================")
    Escreval("   ALGORITMO DETERMINA TRIÂNGULOS   ")
    Escreval("====================================")
    Escreva("Informe o 1° lado do triângulo: ")

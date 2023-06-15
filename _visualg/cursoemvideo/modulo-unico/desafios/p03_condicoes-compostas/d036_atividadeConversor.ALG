@@ -20,7 +20,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o total de horas gastas com execícios.
-   Escreval("================================================================")
    Escreval("     ALGORITMO RECOMPENSA CONVERSÃO PONTOS ATIVIDADE FÍSICA     ")
    Escreval("================================================================")
    Escreva("Informe o total de horas no mês que você praticou exercício: ")

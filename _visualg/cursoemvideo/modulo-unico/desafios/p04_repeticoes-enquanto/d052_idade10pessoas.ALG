@@ -17,7 +17,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um total de 10 idades.
-   Escreval("========================================")
    Escreval("    ALGORITMO INFORMAÇÕES DEZ IDADES    ")
    Escreval("========================================")
    Enquanto (contador < 10) faca

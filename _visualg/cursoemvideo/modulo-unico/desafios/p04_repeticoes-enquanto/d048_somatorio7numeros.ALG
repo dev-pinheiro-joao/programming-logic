@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar sete números inteiros.
-   Escreval("=====================================")
    Escreval("    ALGORITMO SOMATÓRIO 7 NÚMEROS    ")
    Escreval("=====================================")
    Enquanto (contador < 7) faca

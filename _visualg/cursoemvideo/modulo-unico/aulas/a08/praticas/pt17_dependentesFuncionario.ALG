@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o nome, salário e os dependentes de um funcionário.
-   Escreval("==============================================")
    Escreval("      ALGORITMO NOVO SALÁRIO FUNCIONARIO      ")
    Escreval("==============================================")
    Escreva("Informe o nome do funcionário: ")

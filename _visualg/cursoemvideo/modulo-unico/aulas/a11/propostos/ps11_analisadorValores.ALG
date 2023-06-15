@@ -18,7 +18,6 @@ inicio
    // Pedir ao usuário para informar um total de 5 valores inteiros.
    soma <- 0
    somaPares <- 0
-   Escreval("==================================")
    Escreval("       ALGORITMO ANALISADOR       ")
    Escreval("==================================")
    Para contador de 1 ate 5 faca

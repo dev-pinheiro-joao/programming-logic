@@ -13,7 +13,6 @@ var
 inicio
 
    // Pedir ao usuário para informar a velocidade de um veículo.
-   Escreval("=================================")
    Escreval("  ALGORITMO CÁLCULO MULTA CARRO  ")
    Escreval("=================================")
    Escreva("Velocidade do veículo (KM/H): ")

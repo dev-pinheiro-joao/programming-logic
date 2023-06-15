@@ -11,7 +11,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o salário de um funcionário.
-   Escreval("========================================")
    Escreval("   ALGORITMO NOVO SALARIO FUNCIONÁRIO   ")
    Escreval("========================================")
    Escreva("Informe o salário do funcionário: R$")

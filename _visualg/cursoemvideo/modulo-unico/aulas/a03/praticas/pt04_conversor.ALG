@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um ângulo de sua escolha.
-   Escreval("==========================")
    Escreval("  ALGORTIMO CÁLCULO SENO  ")
    Escreval("==========================")
    Escreva("Informe um ângulo(°): ")

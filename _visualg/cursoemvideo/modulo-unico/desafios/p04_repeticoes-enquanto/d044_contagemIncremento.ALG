@@ -13,7 +13,6 @@ var
 inicio
 
    // Pedir ao usuário para informar três números inteiros.
-   Escreval("=================================")
    Escreval("  ALGORITMO CONTAGEM INCREMENTO  ")
    Escreval("=================================")
    Escreva("Informe o primeiro valor(INT): ")

@@ -1,17 +1,17 @@
 algoritmo "jogoVelha"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Criar um jogo da velha
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    v: vetor[1..3, 1..3] de Caractere
    l, c, contador, posicao: Inteiro
    simbolo : Caractere
    retorno: Logico
 
 Procedimento mostraVelha()
-// Função: Mostrar as linhas do joga da velha.
+// Função: Imprimir na tela as linhas e colunas do jogo da velha
 Inicio
 
    // Imprimir na tela as linhas e colunas do jogo da velha.
@@ -24,7 +24,6 @@ Inicio
       Escreval
       Escreval("+---+---+---+")
    FimPara
-
 FimProcedimento
 
 Procedimento mudaJogador()
@@ -37,16 +36,15 @@ inicio
    senao
       simbolo <- "X"
    FimSe
-
 FimProcedimento
 
 Funcao Jogar(S: Caractere; P: Inteiro): Logico
-// Função: Validar jogada
+// Função: Validar jogada feita pelo usuário
 var
-   mudar: Logico {Declaração de Variáveis (Função)}
+   mudar: Logico {Variáveis (Função)}
 inicio
 
-   // Definir se a jogada feita pelo usuário foi válido e, se sim, trocar para o próximo jogador.
+   // Definir se a jogada feita pelo usuário foi válida e, se sim, trocar para o próximo jogador.
    mudar <- FALSO
    Para l de 1 ate 3 faca
       Para c de 1 ate 3 faca
@@ -56,19 +54,20 @@ inicio
          FimSe
       FimPara
    FimPara
-   Retorne mudar
 
+   // Retornar o resultado de se a jogada foi válida ou não.
+   Retorne mudar
 FimFuncao
 
 Funcao TerminouVelha(): Logico
-// Função: Encerrar jogo da velha
+// Função: Encerrar o jogo da velha
 var
-   {Declaração de Variáveis (Função)}
+   {Variáveis (Função)}
    terminou: Logico
    ocorr: Inteiro
 inicio
 
-   // Calcular se o jogador ganhou, perdeu ou deu velha e atribuir na variável TERMINOU.
+   // Definir se o jogador ganhou, perdeu ou se deu velha.
    terminou <- FALSO
    Para l de 1 ate 3 faca
       Se ((v[l,1] = v[l,2]) E (v[l,2] = v[l,3])) entao
@@ -97,25 +96,27 @@ inicio
    Se (ocorr = 0) entao
       terminou <- VERDADEIRO
    FimSe
-   Retorne terminou
 
+   // Retornar se o jogo encerrou ou não.
+   Retorne terminou
 FimFuncao
 
 inicio
 
+   // Converter valores numéricos para caracteres, para construir o tabuleiro.
    contador <- 1
    simbolo <- "X"
-   Para l <- 1 ate 3 faca
-      Para c <- 1 ate 3 faca
+   Para l de 1 ate 3 faca
+      Para c de 1 ate 3 faca
          v[l,c] <- NumpCarac(contador)
          contador <- contador + 1
       FimPara
    FimPara
-   
+
    // Chamar o Procedimento MostraVelha().
    MostraVelha()
-   
-   // Pedir ao usuário para informar as jogadas dos jogadores e imprimir o resultado da partida.
+
+   // Pedir ao usuário para informar as jogadas da partida.
    Repita
       Repita
          Escreval("Vai jogar [", simbolo:1, "] em qual posição? ")
@@ -125,12 +126,14 @@ inicio
             Escreval("JOGADA INVÁLIDA!")
          FimSe
       Ate (retorno = VERDADEIRO)
-      
-      // Chamar o Procedimento MudaJogador()
+
+      // Chamar o Procedimento MudaJogador().
       MudaJogador()
       LimpaTela
       MostraVelha()
    Ate (terminouVelha() = VERDADEIRO)
+   
+   // Imprimir na tela que o jogo foi encerrado.
    Escreval("JOGO FINALIZADO!!!")
    
 fimalgoritmo

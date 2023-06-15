@@ -11,7 +11,6 @@ inicio
 
    // Pedir ao usuário para informar um número inteiro x vezes.
    soma <- 0
-   Escreval("=======================================")
    Escreval("       ALGORITMO SOMADOR USUÁRIO       ")
    Escreval("=======================================")
    Repita

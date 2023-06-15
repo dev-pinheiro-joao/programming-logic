@@ -16,7 +16,6 @@ var
 inicio
 
    // Pedir ao usuário para informar as informações abaixo.
-   Escreval("=========================================")
    Escreval("      ALGORITMO EMPRÉSTIMO BANCÁRIO      ")
    Escreval("=========================================")
    Escreva("Informe o valor da casa: R$")

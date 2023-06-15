@@ -12,7 +12,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número inteiro positivo.
-   Escreval("================================================================")
    Escreval("  ALGORITMO CONTAGEM DE 1 ATÉ UM NÚMERO ESCOLHIDO PELO USUÁRIO  ")
    Escreval("================================================================")
    Escreva("Informe até qual numero gostaria de contar(INT/+): ")

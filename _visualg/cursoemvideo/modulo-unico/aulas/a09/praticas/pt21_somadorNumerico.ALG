@@ -10,7 +10,6 @@ inicio
    // Pedir ao usuário para informar um total de dez valores.
    contador <- 1
    soma <- 0
-   Escreval("===================================")
    Escreval("   ALGORITMO SOMADOR MAIOR/MENOR   ")
    Escreval("===================================")
    Enquanto (contador <= 5) faca

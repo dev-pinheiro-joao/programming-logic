@@ -16,7 +16,6 @@ var
 inicio
 
    // Pedir ao usuário para informar as informações abaixo.
-   Escreval("======================================================")
    Escreval("          ALGORITMO CÁLCULO DESCONTO PRODUTO          ")
    Escreval("======================================================")
    Escreva("Informe qual o seu nome: ")

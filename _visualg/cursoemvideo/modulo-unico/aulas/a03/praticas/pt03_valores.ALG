@@ -10,7 +10,6 @@ var
 inicio
 
    // Pedir ao usuário para informar dois números inteiros.
-   Escreval("===================================")
    Escreval("      ALGORITMO CÁLCULO MÉDIA      ")
    Escreval("===================================")
    Escreva("Informe um número(INT): ")

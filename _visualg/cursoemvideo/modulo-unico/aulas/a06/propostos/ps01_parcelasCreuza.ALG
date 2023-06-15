@@ -10,7 +10,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o valor do empréstimo e o número de parcelas.
-   Escreval("===========================================")
    Escreval("   ALGORITMO CÁLCULO PARCELAS EMPRÉSTIMO   ")
    Escreval("===========================================")
    Escreva("Informe o valor do empréstimo: R$")

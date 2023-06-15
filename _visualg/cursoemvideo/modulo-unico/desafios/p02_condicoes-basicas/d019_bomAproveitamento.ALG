@@ -15,7 +15,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o nome e as notas de um aluno.
-   Escreval("==============================================")
    Escreval("     ALGORITMO CÁLCULO BOM APROVEITAMENTO     ")
    Escreval("==============================================")
    Escreva("Informe o nome do aluno: ")

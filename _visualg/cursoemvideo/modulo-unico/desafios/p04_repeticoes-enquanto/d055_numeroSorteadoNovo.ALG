@@ -18,7 +18,6 @@ inicio
    tent <- 4
 
    // Pedir ao usuário para informar um número inteiro entre 1 e 10.
-   Escreval("========================================")
    Escreval("     ALGORITMO NÚMERO SORTEADO NOVO     ")
    Escreval("========================================")
    Enquanto (contador < 4) faca

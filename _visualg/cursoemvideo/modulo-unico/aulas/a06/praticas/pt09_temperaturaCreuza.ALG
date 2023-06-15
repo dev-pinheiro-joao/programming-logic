@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar a temperatura nos EUA.
-   Escreval("===================================")
    Escreval("   ALGORITMO CÁLCULO TEMPERATURA   ")
    Escreval("===================================")
    Escreva("Informe a temperatura aqui (F°): ")

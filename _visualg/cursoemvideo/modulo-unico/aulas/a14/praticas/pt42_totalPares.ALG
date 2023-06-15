@@ -1,16 +1,15 @@
 algoritmo "totalPares"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Preencher um vetor e mostrar os pares
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    n: vetor[1..7] de Inteiro
    i, TotPar: Inteiro
 inicio
 
    // Pedir ao usuário para informar um número inteiro 7 vezes.
-   Escreval("=================================")
    Escreval("     ALGORITMO VALORES PARES     ")
    Escreval("=================================")
    Para i de 1 ate 7 faca
@@ -18,7 +17,7 @@ inicio
       Leia(n[i])
    FimPara
    
-   // Imprimir na tela o valor e a posição dos números pares, armazenados nas variáveis N e I.
+   // Imprimir na tela o valor e a posição no vetor dos números pares.
    Escreval
    Escreval("+-------------------------------+")
    Para i de 1 ate 7 faca

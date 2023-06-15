@@ -13,7 +13,6 @@ var
 inicio
 
    // Pedir para o usuário informar a medida da largura e da altura de uma parede.
-   Escreval("==============================================")
    Escreval("            ALGORITMO ÁREA PINTADA            ")
    Escreval("==============================================")
    Escreva("Informe a medida da largura da parede(M): ")

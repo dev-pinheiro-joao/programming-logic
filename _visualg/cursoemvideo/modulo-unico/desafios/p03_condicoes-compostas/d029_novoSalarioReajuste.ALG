@@ -19,7 +19,6 @@ var
 inicio
 
    // Pedir ao usuário para informar as informações abaixo.
-   Escreval("===============================================")
    Escreval("   ALGORITMO CÁLCULO NOVO SALÁRIO REAJUSTADO   ")
    Escreval("===============================================")
    Escreva("Informe qual o nome do funcionário: ")

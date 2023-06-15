@@ -15,7 +15,6 @@ var
 inicio
 
    // Imprimir na tela os vinte números sorteados aleatoriamente.
-   Escreval("=================================================================")
    Escreval("  ALGORITMO TOTAL NÚMEROS ACIMA DE 5 E NÚMEROS DIVISÍVEIS POR 3  ")
    Escreval("=================================================================")
    Escreva(" CONTAGEM: ")

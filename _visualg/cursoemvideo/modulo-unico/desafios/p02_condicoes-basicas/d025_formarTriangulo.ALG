@@ -14,7 +14,6 @@ var
 inicio
 
    // Pedir ao usuário para informar três números quaisquer.
-   Escreval("=====================================")
    Escreval("    ALGORITMO DETERMINA TRIÂNGULO    ")
    Escreval("=====================================")
    Escreva("Informe o 1° segmento de reta: ")

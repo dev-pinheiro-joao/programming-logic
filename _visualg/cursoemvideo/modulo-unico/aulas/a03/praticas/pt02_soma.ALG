@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar dois números inteiros.
-   Escreval("==============================")
    Escreval("    ALGORITMO CÁLCULO SOMA    ")
    Escreval("==============================")
    Escreva("Informe um número(INT): ")

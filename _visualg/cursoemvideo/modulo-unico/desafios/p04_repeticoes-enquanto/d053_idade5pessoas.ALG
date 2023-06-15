@@ -20,7 +20,6 @@ var
 inicio
 
    // Pedir ao usuário para informar o sexo e a idade de 5 pessoas.
-   Escreval("==============================================")
    Escreval(" ALGORITMO INFORMAÇÕES IDADES MULHERES/HOMENS ")
    Escreval("==============================================")
    Enquanto (contador < 5) faca

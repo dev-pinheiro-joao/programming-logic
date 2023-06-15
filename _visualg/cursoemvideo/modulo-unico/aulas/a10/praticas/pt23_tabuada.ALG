@@ -9,7 +9,6 @@ inicio
 
    // Pedir ao usuário para informar um número inteiro.
    contador <- 1
-   Escreval("=====================================")
    Escreval("      ALGORITMO CÁLCULO TABUADA      ")
    Escreval("=====================================")
    Escreva("Quer ver a tabuada de qual número? ")

@@ -12,7 +12,6 @@ var
 inicio
 
    // Pedir ao usuário para informar um número (em R$).
-   Escreval("=========================================")
    Escreval("    ALGORITMO CONVERSOR REAIS DÓLARES    ")
    Escreval("=========================================")
    Escreva("Informe quantos reais você possui: R$")

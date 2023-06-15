@@ -9,7 +9,6 @@ inicio
 
    // Pedir ao usuário para informar dois números inteiros.
    contador <- 0
-   Escreval("==============================")
    Escreval("   ALGORITMO CONTADOR ATÉ X   ")
    Escreval("==============================")
    Escreva("Quer contar até quanto? ")

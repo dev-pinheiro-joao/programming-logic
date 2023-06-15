@@ -1,10 +1,10 @@
 algoritmo "somaProcedimento"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Somar dois valores usando procedimentos
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   X, Y: Inteiro {Declaração de Variáveis}
+   X, Y: Inteiro {Variáveis}
 
 Procedimento Soma(A, B: Inteiro)
 // Função: Somar dois valores
@@ -16,7 +16,6 @@ inicio
    Escreval(" RECEBI O VALOR: ", B)
    Escreval(" A SOMA DESSES VALORES É: ", A + B)
    Escreval("|----------------------------|")
-   
 FimProcedimento
 
 inicio

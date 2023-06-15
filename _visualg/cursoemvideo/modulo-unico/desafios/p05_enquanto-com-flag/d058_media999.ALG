@@ -15,7 +15,6 @@ inicio
 
    // Pedir ao usuário para informar a idade de x alunos.
    contador <- 1
-   Escreval("==================================")
    Escreval("   ALGORITMO MÉDIA IDADE ALUNOS   ")
    Escreval("==================================")
    Repita

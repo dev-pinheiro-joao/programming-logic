@@ -12,8 +12,7 @@ var
    salario: Real
 inicio
 
-   // Pedir ao usuário para informar o nome e salário de um funcionário.
-   Escreval("================================================================")
+   // Pedir ao usuário para informar o nome e salário de um funcionário.)
    Escreval("              ALGORITMO SALÁRIO FUNCIONÁRIO JUNHO               ")
    Escreval("================================================================")
    Escreva("Informe o nome do funcionário: ")

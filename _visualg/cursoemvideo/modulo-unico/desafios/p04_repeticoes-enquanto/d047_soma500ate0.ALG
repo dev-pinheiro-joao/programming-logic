@@ -12,7 +12,6 @@ inicio
 
    // Imprimir na tela os valores de quinhentos até zero pulando de cinquenta em cinquenta.
    contador <- 500
-   Escreval("==================================================================")
    Escreval("     ALGORITMO SOMA VALORES ENTRE 500 E 0 PULANDO DE 50 EM 50     ")
    Escreval("==================================================================")
    Escreva(" VALORES: ")

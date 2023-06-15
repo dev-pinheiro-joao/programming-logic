@@ -8,7 +8,6 @@ var
 inicio
 
    // Pedir ao usuário para informar a sua massa corporal e a sua altura.
-   Escreval("=================================")
    Escreval(" ALGORITMO ÍNDICE MASSA CORPORAL ")
    Escreval("=================================")
    Escreva("Informe sua massa (KG): ")

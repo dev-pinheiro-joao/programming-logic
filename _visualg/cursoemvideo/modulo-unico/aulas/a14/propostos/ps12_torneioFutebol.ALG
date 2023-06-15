@@ -1,10 +1,10 @@
 algoritmo "torneioFutebol"
 // Disciplina : [Lógica de Programação / Algoritmo]
-// Professor  : Gustavo Guanabara - Curso Em Video
+// Professor  : Gustavo Guanabara - Curso Em Vídeo
 // Descrição  : Escrever o resultado de uma partida de Futebol
 // Autor(a)   : João Paulo Pinheiro Nascimento
 var
-   {Declaração de Variáveis}
+   {Variáveis}
    vetT: vetor [1..3] de Caractere
    i, j: Inteiro
 inicio
@@ -13,19 +13,19 @@ inicio
    Escreval("------------------")
    Escreval("CAMPEONATO FUTEBOL")
    Escreval("------------------")
-   Para i <- 1 ate 3 faca
+   Para i de 1 ate 3 faca
       Escreva("Nome do", i, "° time: ")
       Leia(vetT[i])
    FimPara
    
-   // Imprimir a tabela de partidas entre os três times armazenada no vetor VETT.
+   // Imprimir a tabela de partidas entre os três times.
    LimpaTela
    Escreval("------------------")
    Escreval("TABELA DE PARTIDAS")
    Escreval("------------------")
-   Para j <- 1 ate 3 faca
-      Para i <- 1 ate 3 faca
-         Se(j <> i) entao
+   Para j de 1 ate 3 faca
+      Para i de 1 ate 3 faca
+         Se (j <> i) entao
             Escreval(vetT[j]:8, " [ ] x [ ] ", vetT[i])
          FimSe
       FimPara
