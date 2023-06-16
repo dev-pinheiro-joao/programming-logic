@@ -96,7 +96,7 @@ Right away:
 This project was only possible thanks to the course provided by [**CursoEmVideo**](https://www.github.com/cursoemvideo/) 
 
 - For more information, access [**Curso de Algoritmo**](https://www.cursoemvideo.com/curso/curso-de-algoritmo/).
-- Or, access the [**Playlist**](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV) of the video lessons on Youtube..
+- Or, access the [**Playlist**](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV) of the video lessons on Youtube.
 
 ## 🏷️ License 
 
